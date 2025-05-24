@@ -1,0 +1,61 @@
+[Rank 3] 2025-05-24 16:13:52,704 - INFO - Process will handle 21 extensions
+[Rank 3] 2025-05-24 16:13:52,704 - INFO - [1/21] Installing: checkov-1.0.98.vsix
+[Rank 3] 2025-05-24 16:13:53,273 - INFO - Successfully installed: checkov-1.0.98.vsix
+[Rank 3] 2025-05-24 16:13:53,273 - INFO - [2/21] Installing: openai-chatgpt-latest.vsix
+[Rank 3] 2025-05-24 16:13:53,278 - INFO - Successfully installed: openai-chatgpt-latest.vsix
+[Rank 3] 2025-05-24 16:13:53,278 - INFO - [3/21] Installing: eamodio.gitlens@2025.5.2405.vsix
+[Rank 3] 2025-05-24 16:13:53,278 - INFO - Detected gzipped file: ./extensions/new/updated_set/eamodio.gitlens@2025.5.2405.vsix
+[Rank 3] 2025-05-24 16:13:53,591 - INFO - Successfully installed: eamodio.gitlens@2025.5.2405.vsix
+[Rank 3] 2025-05-24 16:13:53,592 - INFO - [4/21] Installing: github.copilot-chat@0.28.2025052301.vsix
+[Rank 3] 2025-05-24 16:13:53,592 - INFO - Detected gzipped file: ./extensions/new/updated_set/github.copilot-chat@0.28.2025052301.vsix
+[Rank 3] 2025-05-24 16:13:53,895 - INFO - Successfully installed: github.copilot-chat@0.28.2025052301.vsix
+[Rank 3] 2025-05-24 16:13:53,895 - INFO - [5/21] Installing: github.copilot@1.323.1582.vsix
+[Rank 3] 2025-05-24 16:13:53,895 - INFO - Detected gzipped file: ./extensions/new/updated_set/github.copilot@1.323.1582.vsix
+[Rank 3] 2025-05-24 16:13:54,505 - INFO - Successfully installed: github.copilot@1.323.1582.vsix
+[Rank 3] 2025-05-24 16:13:54,505 - INFO - [6/21] Installing: github.vscode-pull-request-github@0.111.2025052204.vsix
+[Rank 3] 2025-05-24 16:13:54,505 - INFO - Detected gzipped file: ./extensions/new/updated_set/github.vscode-pull-request-github@0.111.2025052204.vsix
+[Rank 3] 2025-05-24 16:13:54,592 - INFO - Successfully installed: github.vscode-pull-request-github@0.111.2025052204.vsix
+[Rank 3] 2025-05-24 16:13:54,593 - INFO - [7/21] Installing: ms-dotnettools.csharp@2.79.8.vsix
+[Rank 3] 2025-05-24 16:13:54,593 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-dotnettools.csharp@2.79.8.vsix
+[Rank 3] 2025-05-24 16:14:04,295 - INFO - Successfully installed: ms-dotnettools.csharp@2.79.8.vsix
+[Rank 3] 2025-05-24 16:14:04,295 - INFO - [8/21] Installing: ms-python.python@2025.6.1.vsix
+[Rank 3] 2025-05-24 16:14:04,296 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-python.python@2025.6.1.vsix
+[Rank 3] 2025-05-24 16:14:09,908 - INFO - Successfully installed: ms-python.python@2025.6.1.vsix
+[Rank 3] 2025-05-24 16:14:09,908 - INFO - [9/21] Installing: ms-python.vscode-pylance@2025.5.1.vsix
+[Rank 3] 2025-05-24 16:14:09,908 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-python.vscode-pylance@2025.5.1.vsix
+[Rank 3] 2025-05-24 16:14:13,445 - INFO - Successfully installed: ms-python.vscode-pylance@2025.5.1.vsix
+[Rank 3] 2025-05-24 16:14:13,445 - INFO - [10/21] Installing: ms-vscode-remote.remote-containers@0.414.0.vsix
+[Rank 3] 2025-05-24 16:14:13,445 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-vscode-remote.remote-containers@0.414.0.vsix
+[Rank 3] 2025-05-24 16:14:13,617 - INFO - Successfully installed: ms-vscode-remote.remote-containers@0.414.0.vsix
+[Rank 3] 2025-05-24 16:14:13,617 - INFO - [11/21] Installing: ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[Rank 3] 2025-05-24 16:14:13,618 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[Rank 3] 2025-05-24 16:14:13,686 - INFO - Successfully installed: ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[Rank 3] 2025-05-24 16:14:13,686 - INFO - [12/21] Installing: redhat.vscode-yaml@1.18.0.vsix
+[Rank 3] 2025-05-24 16:14:13,687 - INFO - Detected gzipped file: ./extensions/new/updated_set/redhat.vscode-yaml@1.18.0.vsix
+[Rank 3] 2025-05-24 16:14:13,749 - INFO - Successfully installed: redhat.vscode-yaml@1.18.0.vsix
+[Rank 3] 2025-05-24 16:14:13,749 - INFO - [13/21] Installing: quantum.qsharp-lang-vscode@1.16.0.vsix
+[Rank 3] 2025-05-24 16:14:13,749 - INFO - Detected gzipped file: ./extensions/quantum.qsharp-lang-vscode@1.16.0.vsix
+[Rank 3] 2025-05-24 16:14:13,828 - INFO - Successfully installed: quantum.qsharp-lang-vscode@1.16.0.vsix
+[Rank 3] 2025-05-24 16:14:13,828 - INFO - [14/21] Installing: redhat.vscode-xml@0.29.0.vsix
+[Rank 3] 2025-05-24 16:14:13,829 - INFO - Detected gzipped file: ./extensions/redhat.vscode-xml@0.29.0.vsix
+[Rank 3] 2025-05-24 16:14:14,052 - INFO - Successfully installed: redhat.vscode-xml@0.29.0.vsix
+[Rank 3] 2025-05-24 16:14:14,052 - INFO - [15/21] Installing: redhat.vscode-yaml@1.18.0.vsix
+[Rank 3] 2025-05-24 16:14:14,052 - INFO - Detected gzipped file: ./extensions/redhat.vscode-yaml@1.18.0.vsix
+[Rank 3] 2025-05-24 16:14:14,122 - INFO - Successfully installed: redhat.vscode-yaml@1.18.0.vsix
+[Rank 3] 2025-05-24 16:14:14,122 - INFO - [16/21] Installing: teamsdevapp.vscode-ai-foundry@0.5.1.vsix
+[Rank 3] 2025-05-24 16:14:14,122 - INFO - Detected gzipped file: ./extensions/teamsdevapp.vscode-ai-foundry@0.5.1.vsix
+[Rank 3] 2025-05-24 16:14:14,284 - INFO - Successfully installed: teamsdevapp.vscode-ai-foundry@0.5.1.vsix
+[Rank 3] 2025-05-24 16:14:14,284 - INFO - [17/21] Installing: toba.vsfire@1.4.1.vsix
+[Rank 3] 2025-05-24 16:14:14,285 - INFO - Detected gzipped file: ./extensions/toba.vsfire@1.4.1.vsix
+[Rank 3] 2025-05-24 16:14:14,289 - INFO - Successfully installed: toba.vsfire@1.4.1.vsix
+[Rank 3] 2025-05-24 16:14:14,289 - INFO - [18/21] Installing: vscjava.migrate-java-to-azure@0.3.2025052301.vsix
+[Rank 3] 2025-05-24 16:14:14,290 - INFO - Detected gzipped file: ./extensions/vscjava.migrate-java-to-azure@0.3.2025052301.vsix
+[Rank 3] 2025-05-24 16:14:14,425 - INFO - Successfully installed: vscjava.migrate-java-to-azure@0.3.2025052301.vsix
+[Rank 3] 2025-05-24 16:14:14,425 - INFO - [19/21] Installing: vscjava.vscode-app-mod-pack@0.2.1.vsix
+[Rank 3] 2025-05-24 16:14:14,426 - INFO - Detected gzipped file: ./extensions/vscjava.vscode-app-mod-pack@0.2.1.vsix
+[Rank 3] 2025-05-24 16:14:14,430 - INFO - Successfully installed: vscjava.vscode-app-mod-pack@0.2.1.vsix
+[Rank 3] 2025-05-24 16:14:14,431 - INFO - [20/21] Installing: vscjava.vscode-java-upgrade@0.14.0.vsix
+[Rank 3] 2025-05-24 16:14:14,431 - INFO - Detected gzipped file: ./extensions/vscjava.vscode-java-upgrade@0.14.0.vsix
+[Rank 3] 2025-05-24 16:14:14,511 - INFO - Successfully installed: vscjava.vscode-java-upgrade@0.14.0.vsix
+[Rank 3] 2025-05-24 16:14:14,511 - INFO - [21/21] Installing: vscode.github-1.95.3.vsix
+[Rank 3] 2025-05-24 16:14:14,529 - INFO - Successfully installed: vscode.github-1.95.3.vsix

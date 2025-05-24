@@ -1,0 +1,59 @@
+[Rank 2] 2025-05-24 16:13:52,704 - INFO - Process will handle 22 extensions
+[Rank 2] 2025-05-24 16:13:52,704 - INFO - [1/22] Installing: ms-vscode.anycode-go@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,705 - INFO - Detected gzipped file: ./extensions/ms-vscode.anycode-go@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,710 - INFO - Successfully installed: ms-vscode.anycode-go@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,710 - INFO - [2/22] Installing: ms-vscode.anycode-java@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,710 - INFO - Detected gzipped file: ./extensions/ms-vscode.anycode-java@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,716 - INFO - Successfully installed: ms-vscode.anycode-java@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,725 - INFO - [3/22] Installing: ms-vscode.anycode-kotlin@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,725 - INFO - Detected gzipped file: ./extensions/ms-vscode.anycode-kotlin@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,796 - INFO - Successfully installed: ms-vscode.anycode-kotlin@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,797 - INFO - [4/22] Installing: ms-vscode.anycode-php@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,797 - INFO - Detected gzipped file: ./extensions/ms-vscode.anycode-php@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,814 - INFO - Successfully installed: ms-vscode.anycode-php@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,814 - INFO - [5/22] Installing: ms-vscode.anycode-python@0.0.7.vsix
+[Rank 2] 2025-05-24 16:13:52,815 - INFO - Detected gzipped file: ./extensions/ms-vscode.anycode-python@0.0.7.vsix
+[Rank 2] 2025-05-24 16:13:52,826 - INFO - Successfully installed: ms-vscode.anycode-python@0.0.7.vsix
+[Rank 2] 2025-05-24 16:13:52,826 - INFO - [6/22] Installing: ms-vscode.anycode-rust@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,827 - INFO - Detected gzipped file: ./extensions/ms-vscode.anycode-rust@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,837 - INFO - Successfully installed: ms-vscode.anycode-rust@0.0.8.vsix
+[Rank 2] 2025-05-24 16:13:52,838 - INFO - [7/22] Installing: ms-vscode.anycode-typescript@0.0.7.vsix
+[Rank 2] 2025-05-24 16:13:52,838 - INFO - Detected gzipped file: ./extensions/ms-vscode.anycode-typescript@0.0.7.vsix
+[Rank 2] 2025-05-24 16:13:52,857 - INFO - Successfully installed: ms-vscode.anycode-typescript@0.0.7.vsix
+[Rank 2] 2025-05-24 16:13:52,857 - INFO - [8/22] Installing: ms-vscode.anycode@0.0.74.vsix
+[Rank 2] 2025-05-24 16:13:52,858 - INFO - Detected gzipped file: ./extensions/ms-vscode.anycode@0.0.74.vsix
+[Rank 2] 2025-05-24 16:13:52,932 - INFO - Successfully installed: ms-vscode.anycode@0.0.74.vsix
+[Rank 2] 2025-05-24 16:13:52,932 - INFO - [9/22] Installing: ms-vscode.azure-repos@0.41.2024112101.vsix
+[Rank 2] 2025-05-24 16:13:52,933 - INFO - Detected gzipped file: ./extensions/ms-vscode.azure-repos@0.41.2024112101.vsix
+[Rank 2] 2025-05-24 16:13:52,990 - INFO - Successfully installed: ms-vscode.azure-repos@0.41.2024112101.vsix
+[Rank 2] 2025-05-24 16:13:52,990 - INFO - [10/22] Installing: ms-vscode.remote-explorer@0.6.2025051209.vsix
+[Rank 2] 2025-05-24 16:13:52,991 - INFO - Detected gzipped file: ./extensions/ms-vscode.remote-explorer@0.6.2025051209.vsix
+[Rank 2] 2025-05-24 16:13:53,003 - INFO - Successfully installed: ms-vscode.remote-explorer@0.6.2025051209.vsix
+[Rank 2] 2025-05-24 16:13:53,003 - INFO - [11/22] Installing: ms-vscode.remote-repositories@0.43.2024112101.vsix
+[Rank 2] 2025-05-24 16:13:53,003 - INFO - Detected gzipped file: ./extensions/ms-vscode.remote-repositories@0.43.2024112101.vsix
+[Rank 2] 2025-05-24 16:13:53,092 - INFO - Successfully installed: ms-vscode.remote-repositories@0.43.2024112101.vsix
+[Rank 2] 2025-05-24 16:13:53,093 - INFO - [12/22] Installing: ms-vscode.remote-server@1.6.2025041509.vsix
+[Rank 2] 2025-05-24 16:13:53,093 - INFO - Detected gzipped file: ./extensions/ms-vscode.remote-server@1.6.2025041509.vsix
+[Rank 2] 2025-05-24 16:13:53,165 - INFO - Successfully installed: ms-vscode.remote-server@1.6.2025041509.vsix
+[Rank 2] 2025-05-24 16:13:53,165 - INFO - [13/22] Installing: ms-vscode.vscode-node-azure-pack@1.6.0.vsix
+[Rank 2] 2025-05-24 16:13:53,166 - INFO - Detected gzipped file: ./extensions/ms-vscode.vscode-node-azure-pack@1.6.0.vsix
+[Rank 2] 2025-05-24 16:13:53,169 - INFO - Successfully installed: ms-vscode.vscode-node-azure-pack@1.6.0.vsix
+[Rank 2] 2025-05-24 16:13:53,169 - INFO - [14/22] Installing: ms-vscode.vscode-speech@0.15.2025052212.vsix
+[Rank 2] 2025-05-24 16:13:53,169 - INFO - Detected gzipped file: ./extensions/ms-vscode.vscode-speech@0.15.2025052212.vsix
+[Rank 2] 2025-05-24 16:13:56,636 - INFO - Successfully installed: ms-vscode.vscode-speech@0.15.2025052212.vsix
+[Rank 2] 2025-05-24 16:13:56,637 - INFO - [15/22] Installing: Codeium.codeium-1.24.8.vsix
+[Rank 2] 2025-05-24 16:13:56,722 - INFO - Successfully installed: Codeium.codeium-1.24.8.vsix
+[Rank 2] 2025-05-24 16:13:56,722 - INFO - [16/22] Installing: FluidAttacks.fluidattacks-0.71.3.vsix
+[Rank 2] 2025-05-24 16:13:56,896 - INFO - Successfully installed: FluidAttacks.fluidattacks-0.71.3.vsix
+[Rank 2] 2025-05-24 16:13:56,896 - INFO - [17/22] Installing: Google.geminicodeassist-2.23.1.vsix
+[Rank 2] 2025-05-24 16:13:57,704 - INFO - Successfully installed: Google.geminicodeassist-2.23.1.vsix
+[Rank 2] 2025-05-24 16:13:57,705 - INFO - [18/22] Installing: JetBrains.qodana-code-1.1.2.vsix
+[Rank 2] 2025-05-24 16:13:58,296 - INFO - Successfully installed: JetBrains.qodana-code-1.1.2.vsix
+[Rank 2] 2025-05-24 16:13:58,296 - INFO - [19/22] Installing: PrismaCloud.prisma-cloud-1.0.25.vsix
+[Rank 2] 2025-05-24 16:13:58,444 - INFO - Successfully installed: PrismaCloud.prisma-cloud-1.0.25.vsix
+[Rank 2] 2025-05-24 16:13:58,444 - INFO - [20/22] Installing: SonarSource.sonarlint-vscode-4.13.2@darwin-arm64.vsix
+[Rank 2] 2025-05-24 16:14:01,182 - INFO - Successfully installed: SonarSource.sonarlint-vscode-4.13.2@darwin-arm64.vsix
+[Rank 2] 2025-05-24 16:14:01,183 - INFO - [21/22] Installing: TabNine.tabnine-vscode-3.203.0.vsix
+[Rank 2] 2025-05-24 16:14:01,240 - INFO - Successfully installed: TabNine.tabnine-vscode-3.203.0.vsix
+[Rank 2] 2025-05-24 16:14:01,240 - INFO - [22/22] Installing: amazonwebservices.amazon-q-vscode-1.40.0.vsix
+[Rank 2] 2025-05-24 16:14:01,612 - INFO - Successfully installed: amazonwebservices.amazon-q-vscode-1.40.0.vsix
