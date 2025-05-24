@@ -15,7 +15,10 @@ A comprehensive collection of VS Code Insiders extensions with installation scri
 │   └── failed_downloads.txt             # Any failed download attempts
 └── scripts/                  # Installation and utility scripts
     ├── download_extensions.sh           # Script to download extensions
-    └── install_cursor_extensions.sh     # Comprehensive Cursor IDE installation script
+    ├── fix_extensions_json.py           # Script to fix and normalize extensions.json
+    ├── fix_github_extensions.py         # Script to fix GitHub extension compatibility
+    ├── install_cursor_extensions.sh     # Comprehensive Cursor IDE installation script
+    └── update_vsix_engine.py            # Script to update VSIX engine versions
 ```
 
 ## Extension Overview
@@ -120,6 +123,30 @@ Comprehensive script for installing extensions in Cursor IDE:
   - Updates extensions.json with proper metadata
   - Creates minimal package.json for each extension
   - Supports version comparison and only updates when needed
+
+### fix_extensions_json.py
+Script to fix and normalize the Cursor IDE's extensions.json file:
+- Normalizes extension IDs and directory structures
+- Handles special cases for GitHub extensions
+- Creates backups of the original extensions.json
+- Maintains proper version tracking
+- Provides detailed processing statistics
+
+### fix_github_extensions.py
+Specialized script for fixing GitHub extension compatibility issues:
+- Focuses on problematic GitHub extensions
+- Uses multiple extraction and repacking methods
+- Updates engine version requirements
+- Provides detailed logging and progress tracking
+- Creates backups before modifications
+
+### update_vsix_engine.py
+General-purpose script for updating VS Code engine versions in VSIX packages:
+- Processes VSIX files to update engine compatibility
+- Handles both ZIP and GZIP compression
+- Updates package.json engine requirements
+- Creates detailed logs of all changes
+- Provides progress tracking and success/failure statistics
 
 - **Flexible Options**:
   - Install all extensions or select specific ones with `--extensions`
