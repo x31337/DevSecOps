@@ -1,0 +1,62 @@
+# Cursor IDE Extension Installation Log - Sat May 24 03:43:01 PM -05 2025
+# Command: ./install_gzipped_extensions.sh --source ./extensions --extensions github.copilot,github.copilot-chat,ms-python.python,ms-python.vscode-pylance,github.vscode-pull-request-github,eamodio.gitlens,ms-vscode-remote.remote-containers,ms-vscode-remote.remote-ssh,ms-dotnettools.csharp,redhat.vscode-yaml --yes
+---
+[2025-05-24 15:43:01] INFO: Starting Cursor extension installation
+[2025-05-24 15:43:01] INFO: Checking dependencies...
+[2025-05-24 15:43:01] INFO: Detecting Cursor IDE installation...
+[2025-05-24 15:43:01] SUCCESS: Found Cursor IDE at: /home/jose.guzman/Applications/Cursor.AppImage
+[2025-05-24 15:43:01] INFO: Created backup of extensions.json at /home/jose.guzman/.cursor/extensions/extensions.json.backup.20250524154301
+[2025-05-24 15:43:01] INFO: Found 67 extensions in the source directory
+[2025-05-24 15:43:01] INFO: Found 73 extensions currently installed
+[2025-05-24 15:43:01] INFO: Selected extensions to install: github.copilot github.copilot-chat ms-python.python ms-python.vscode-pylance github.vscode-pull-request-github eamodio.gitlens ms-vscode-remote.remote-containers ms-vscode-remote.remote-ssh ms-dotnettools.csharp redhat.vscode-yaml
+[2025-05-24 15:43:02] INFO: Analyzing extensions to install...
+[2025-05-24 15:43:02] INFO: Update available: eamodio.gitlens (17.1.1 → 2025.5.2405)
+[2025-05-24 15:43:02] INFO: Update available: github.vscode-pull-request-github (0.102.0 → 0.111.2025052204)
+[2025-05-24 15:43:02] INFO: Update available: ms-python.vscode-pylance (2024.8.1 → 2025.5.1)
+[2025-05-24 15:43:02] INFO: Update available: ms-vscode-remote.remote-containers (0.394.0 → 0.414.0)
+[2025-05-24 15:43:02] INFO: Update available: ms-vscode-remote.remote-ssh (0.113.1 → 0.121.2025050915)
+[2025-05-24 15:43:02] INFO: Installation plan:
+[2025-05-24 15:43:02] INFO:   Total extensions in source: 67
+[2025-05-24 15:43:02] INFO:   Currently installed: 73
+[2025-05-24 15:43:02] INFO:   To be installed/updated: 9
+[2025-05-24 15:43:02] INFO:   To be skipped: 1
+[2025-05-24 15:43:02] INFO: Starting installation...
+[2025-05-24 15:43:02] INFO: Installing: eamodio.gitlens (2025.5.2405)
+[2025-05-24 15:43:02] DEBUG: Detected gzipped VSIX file: ./extensions/eamodio.gitlens@2025.5.2405.vsix
+[2025-05-24 15:43:02] DEBUG: Decompressing gzipped file: ./extensions/eamodio.gitlens@2025.5.2405.vsix to /tmp/cursor_extensions_20250524_154301/eamodio.gitlens@2025.5.2405.vsix.unzipped
+[2025-05-24 15:43:02] DEBUG: [/tmp/cursor_extensions_20250524_154301/eamodio.gitlens@2025.5.2405.vsix.unzipped]
+[2025-05-24 15:43:02] INFO: Installing: github.copilot-chat (0.28.2025052301)
+[2025-05-24 15:43:02] DEBUG: Detected gzipped VSIX file: ./extensions/github.copilot-chat@0.28.2025052301.vsix
+[2025-05-24 15:43:02] DEBUG: Decompressing gzipped file: ./extensions/github.copilot-chat@0.28.2025052301.vsix to /tmp/cursor_extensions_20250524_154301/github.copilot-chat@0.28.2025052301.vsix.unzipped
+[2025-05-24 15:43:02] DEBUG: [/tmp/cursor_extensions_20250524_154301/github.copilot-chat@0.28.2025052301.vsix.unzipped]
+[2025-05-24 15:43:03] INFO: Installing: github.vscode-pull-request-github (0.111.2025052204)
+[2025-05-24 15:43:03] DEBUG: Detected gzipped VSIX file: ./extensions/github.vscode-pull-request-github@0.111.2025052204.vsix
+[2025-05-24 15:43:03] DEBUG: Decompressing gzipped file: ./extensions/github.vscode-pull-request-github@0.111.2025052204.vsix to /tmp/cursor_extensions_20250524_154301/github.vscode-pull-request-github@0.111.2025052204.vsix.unzipped
+[2025-05-24 15:43:03] DEBUG: [/tmp/cursor_extensions_20250524_154301/github.vscode-pull-request-github@0.111.2025052204.vsix.unzipped]
+[2025-05-24 15:43:03] INFO: Installing: ms-dotnettools.csharp (2.79.8)
+[2025-05-24 15:43:03] DEBUG: Detected gzipped VSIX file: ./extensions/ms-dotnettools.csharp@2.79.8.vsix
+[2025-05-24 15:43:03] DEBUG: Decompressing gzipped file: ./extensions/ms-dotnettools.csharp@2.79.8.vsix to /tmp/cursor_extensions_20250524_154301/ms-dotnettools.csharp@2.79.8.vsix.unzipped
+[2025-05-24 15:43:05] DEBUG: [/tmp/cursor_extensions_20250524_154301/ms-dotnettools.csharp@2.79.8.vsix.unzipped]
+[2025-05-24 15:43:09] INFO: Installing: ms-python.python (2025.6.1)
+[2025-05-24 15:43:09] DEBUG: Detected gzipped VSIX file: ./extensions/ms-python.python@2025.6.1.vsix
+[2025-05-24 15:43:09] DEBUG: Decompressing gzipped file: ./extensions/ms-python.python@2025.6.1.vsix to /tmp/cursor_extensions_20250524_154301/ms-python.python@2025.6.1.vsix.unzipped
+[2025-05-24 15:43:10] DEBUG: [/tmp/cursor_extensions_20250524_154301/ms-python.python@2025.6.1.vsix.unzipped]
+[2025-05-24 15:43:10] INFO: Installing: ms-python.vscode-pylance (2025.5.1)
+[2025-05-24 15:43:10] DEBUG: Detected gzipped VSIX file: ./extensions/ms-python.vscode-pylance@2025.5.1.vsix
+[2025-05-24 15:43:10] DEBUG: Decompressing gzipped file: ./extensions/ms-python.vscode-pylance@2025.5.1.vsix to /tmp/cursor_extensions_20250524_154301/ms-python.vscode-pylance@2025.5.1.vsix.unzipped
+[2025-05-24 15:43:10] DEBUG: [/tmp/cursor_extensions_20250524_154301/ms-python.vscode-pylance@2025.5.1.vsix.unzipped]
+[2025-05-24 15:43:11] INFO: Installing: ms-vscode-remote.remote-containers (0.414.0)
+[2025-05-24 15:43:11] DEBUG: Detected gzipped VSIX file: ./extensions/ms-vscode-remote.remote-containers@0.414.0.vsix
+[2025-05-24 15:43:11] DEBUG: Decompressing gzipped file: ./extensions/ms-vscode-remote.remote-containers@0.414.0.vsix to /tmp/cursor_extensions_20250524_154301/ms-vscode-remote.remote-containers@0.414.0.vsix.unzipped
+[2025-05-24 15:43:11] DEBUG: [/tmp/cursor_extensions_20250524_154301/ms-vscode-remote.remote-containers@0.414.0.vsix.unzipped]
+[2025-05-24 15:43:11] INFO: Installing: ms-vscode-remote.remote-ssh (0.121.2025050915)
+[2025-05-24 15:43:11] DEBUG: Detected gzipped VSIX file: ./extensions/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[2025-05-24 15:43:11] DEBUG: Decompressing gzipped file: ./extensions/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix to /tmp/cursor_extensions_20250524_154301/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix.unzipped
+[2025-05-24 15:43:11] DEBUG: [/tmp/cursor_extensions_20250524_154301/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix.unzipped]
+[2025-05-24 15:43:12] INFO: Installing: redhat.vscode-yaml (1.18.0)
+[2025-05-24 15:43:12] DEBUG: Detected gzipped VSIX file: ./extensions/redhat.vscode-yaml@1.18.0.vsix
+[2025-05-24 15:43:12] DEBUG: Decompressing gzipped file: ./extensions/redhat.vscode-yaml@1.18.0.vsix to /tmp/cursor_extensions_20250524_154301/redhat.vscode-yaml@1.18.0.vsix.unzipped
+[2025-05-24 15:43:12] DEBUG: [/tmp/cursor_extensions_20250524_154301/redhat.vscode-yaml@1.18.0.vsix.unzipped]
+[2025-05-24 15:43:12] INFO: Installation completed
+[2025-05-24 15:43:12] INFO: Total extensions installed/updated: 9
+[2025-05-24 15:43:12] INFO: Total extensions failed: 0
