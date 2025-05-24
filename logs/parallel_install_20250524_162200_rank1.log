@@ -1,0 +1,10 @@
+[Rank 1] 2025-05-24 16:22:00,335 - INFO - Process will handle 3 extensions
+[Rank 1] 2025-05-24 16:22:00,335 - INFO - [1/3] Installing: github.vscode-pull-request-github@0.111.2025052204.vsix
+[Rank 1] 2025-05-24 16:22:00,336 - INFO - Detected gzipped file: ./extensions/new/updated_set/github.vscode-pull-request-github@0.111.2025052204.vsix
+[Rank 1] 2025-05-24 16:22:00,429 - INFO - Successfully installed: github.vscode-pull-request-github@0.111.2025052204.vsix
+[Rank 1] 2025-05-24 16:22:00,430 - INFO - [2/3] Installing: ms-dotnettools.csharp@2.79.8.vsix
+[Rank 1] 2025-05-24 16:22:00,430 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-dotnettools.csharp@2.79.8.vsix
+[Rank 1] 2025-05-24 16:22:06,250 - INFO - Successfully installed: ms-dotnettools.csharp@2.79.8.vsix
+[Rank 1] 2025-05-24 16:22:06,250 - INFO - [3/3] Installing: ms-python.python@2025.6.1.vsix
+[Rank 1] 2025-05-24 16:22:06,250 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-python.python@2025.6.1.vsix
+[Rank 1] 2025-05-24 16:22:06,894 - INFO - Successfully installed: ms-python.python@2025.6.1.vsix

@@ -1,0 +1,7 @@
+[Rank 3] 2025-05-24 16:20:40,439 - INFO - Process will handle 2 extensions
+[Rank 3] 2025-05-24 16:20:40,439 - INFO - [1/2] Installing: ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[Rank 3] 2025-05-24 16:20:40,440 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[Rank 3] 2025-05-24 16:20:40,469 - INFO - Successfully installed: ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[Rank 3] 2025-05-24 16:20:40,469 - INFO - [2/2] Installing: redhat.vscode-yaml@1.18.0.vsix
+[Rank 3] 2025-05-24 16:20:40,470 - INFO - Detected gzipped file: ./extensions/new/updated_set/redhat.vscode-yaml@1.18.0.vsix
+[Rank 3] 2025-05-24 16:20:40,522 - INFO - Successfully installed: redhat.vscode-yaml@1.18.0.vsix
