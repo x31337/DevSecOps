@@ -9,12 +9,20 @@ import subprocess
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 
-# Configuration
-EXTENSIONS_DIR = "./extensions"
-OUTPUT_DB = "./extension_inventory.db"
-DOCS_DIR = "./docs"
-README_TEMPLATE = "./README_template.md"
-README_OUTPUT = "./README.md"
+# Get the project root directory
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+# Configuration with absolute paths for reliability
+EXTENSIONS_DIR = os.path.join(PROJECT_ROOT, "extensions")
+DB_DIR = os.path.join(PROJECT_ROOT, "db")
+OUTPUT_DB = os.path.join(DB_DIR, "extension_inventory.db")
+DOCS_DIR = os.path.join(PROJECT_ROOT, "docs")
+README_TEMPLATE = os.path.join(PROJECT_ROOT, "README_template.md")
+README_OUTPUT = os.path.join(PROJECT_ROOT, "README.md")
+
+# Create necessary directories
+os.makedirs(DB_DIR, exist_ok=True)
+os.makedirs(DOCS_DIR, exist_ok=True)
 
 # Extension categories with regex patterns for matching
 CATEGORIES = {
@@ -39,6 +47,9 @@ CATEGORIES = {
 
 def setup_database(db_path: str) -> sqlite3.Connection:
     """Create database and tables if they don't exist."""
+    # Ensure the database directory exists
+    os.makedirs(os.path.dirname(db_path), exist_ok=True)
+    
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
@@ -130,6 +141,11 @@ def scan_extensions(directory: str) -> List[Dict]:
     """Scan for VSIX files and extract metadata."""
     extensions = []
     
+    # Ensure directory exists
+    if not os.path.exists(directory):
+        print(f"Warning: Extensions directory not found: {directory}")
+        return []
+        
     for root, _, files in os.walk(directory):
         for file in files:
             if file.endswith('.vsix'):
@@ -326,6 +342,12 @@ def update_readme(conn: sqlite3.Connection) -> None:
 def main() -> None:
     """Main function to process extensions and generate documentation."""
     print(f"Starting extension inventory creation at {datetime.datetime.now()}")
+    
+    # Log configuration
+    print(f"Project root: {PROJECT_ROOT}")
+    print(f"Extensions directory: {EXTENSIONS_DIR}")
+    print(f"Database directory: {DB_DIR}")
+    print(f"Documentation directory: {DOCS_DIR}")
     
     # Setup database
     print(f"Setting up database at {OUTPUT_DB}")
