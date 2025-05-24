@@ -15,8 +15,7 @@ A comprehensive collection of VS Code Insiders extensions with installation scri
 │   └── failed_downloads.txt             # Any failed download attempts
 └── scripts/                  # Installation and utility scripts
     ├── download_extensions.sh           # Script to download extensions
-    ├── install_extensions_cursor.sh     # Basic Cursor IDE installation script
-    └── install_extensions_cursor_new.sh # Advanced Cursor IDE installation script
+    └── install_cursor_extensions.sh     # Comprehensive Cursor IDE installation script
 ```
 
 ## Extension Overview
@@ -52,23 +51,41 @@ cd DevSecOps
 
 ### Installing Extensions in Cursor IDE
 
-For Cursor IDE, use one of the provided installation scripts:
+For Cursor IDE, use the provided installation script:
 
 ```bash
 # Make script executable if needed
-chmod +x scripts/install_extensions_cursor_new.sh
+chmod +x scripts/install_cursor_extensions.sh
 
-# Run the installation script
-./scripts/install_extensions_cursor_new.sh
+# Run the installation script with default options
+./scripts/install_cursor_extensions.sh
+
+# Or specify options for more control
+./scripts/install_cursor_extensions.sh --path /path/to/cursor --source ./extensions --verbose
 
 # Restart Cursor IDE after installation
 ```
 
+The script supports multiple options:
+```
+  -h, --help             Show help message and exit
+  -p, --path PATH        Specify Cursor installation path
+  -s, --source DIR       Specify source extensions directory
+  -e, --extensions LIST  Comma-separated list of extensions to install
+  -y, --yes              Auto-confirm all prompts
+  -q, --quiet            Minimal output mode
+  -v, --verbose          Verbose output mode
+  -d, --debug            Debug mode with extra information
+  --dry-run              Simulate installation without making changes
+```
+
 The script will:
-1. Analyze currently installed extensions
-2. Compare with available extensions
-3. Install only missing or newer versions
-4. Provide detailed progress information
+1. Detect Cursor IDE installation automatically
+2. Analyze currently installed extensions
+3. Compare with available extensions
+4. Install only missing or newer versions
+5. Provide detailed progress with a visual progress bar
+6. Create comprehensive logs for troubleshooting
 
 ### Installing Extensions in VS Code
 
@@ -89,16 +106,33 @@ done
 ### download_extensions.sh
 Downloads VS Code Insider extensions from the marketplace.
 
-### install_extensions_cursor.sh
-Basic script to install extensions in Cursor IDE. Uses the Cursor AppImage to install extensions.
+### install_cursor_extensions.sh
+Comprehensive script for installing extensions in Cursor IDE:
 
-### install_extensions_cursor_new.sh
-Advanced script for Cursor IDE installation with improved features:
-- Detects already installed extensions
-- Handles binary .vsix files correctly
-- Updates extensions.json with proper metadata
-- Creates minimal package.json for each extension
-- Supports version comparison and updates
+- **Platform Support**: 
+  - Automatically detects Cursor on Linux and macOS
+  - Handles different installation locations
+  - Supports custom paths with `--path` option
+
+- **Smart Installation**:
+  - Detects already installed extensions
+  - Handles binary .vsix files correctly
+  - Updates extensions.json with proper metadata
+  - Creates minimal package.json for each extension
+  - Supports version comparison and only updates when needed
+
+- **Flexible Options**:
+  - Install all extensions or select specific ones with `--extensions`
+  - Debug mode for troubleshooting
+  - Dry-run mode to simulate without changes
+  - Quiet mode for CI/CD integration
+  - Verbose mode for detailed information
+
+- **User Experience**:
+  - Visual progress bar during installation
+  - Color-coded status messages
+  - Detailed logs for troubleshooting
+  - Comprehensive error handling
 
 ## Extension Categories
 * Development Tools: GitHub Copilot, Azure Tools, Python Tools
