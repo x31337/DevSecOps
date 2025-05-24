@@ -1,0 +1,268 @@
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: apidev.azure-api-center[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: eamodio.gitlens[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: firsttris.vscode-jest-runner[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: github.codespaces[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: github.copilot[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: github.copilot-chat[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: github.copilot-workspace[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: github.remotehub[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: GitHub.vscode-codeql-1.17.2[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: GitHub.vscode-github-actions-0.27.1[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: GitHub.vscode-pull-request-github-0.110.0[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: github.vscode-pull-request-github[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: googlecloudtools.cloudcode[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: google.geminicodeassist[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azure-load-testing.microsoft-testing[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.azure-dev[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-azureappservice[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-azurecontainerapps[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-azurefunctions[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-azure-github-copilot[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-azureresourcegroups[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-azurestaticwebapps[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-azurestorage[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-azurevirtualmachines[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-containers[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-azuretools.vscode-cosmosdb[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-ceintl.vscode-language-pack-es[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-ceintl.vscode-language-pack-zh-hans[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-dotnettools.blazorwasm-companion[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-dotnettools.csdevkit[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-dotnettools.csharp[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-dotnettools.vscode-dotnet-runtime[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-edgedevtools.vscode-edge-devtools[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-kubernetes-tools.vscode-kubernetes-tools[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-python.debugpy[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-python.python[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-python.vscode-pylance[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode-cpp[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode-c-sharp[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode-go[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode-java[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode-kotlin[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode-php[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode-python[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode-rust[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.anycode-typescript[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.azure-repos[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.remote-explorer[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode-remote.remote-containers[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode-remote.remote-ssh[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode-remote.remote-ssh-edit[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode-remote.remote-wsl[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.remote-repositories[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.remote-server[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode-remote.vscode-remote-extensionpack[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.vscode-node-azure-pack[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: ms-vscode.vscode-speech[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: quantum.qsharp-lang-vscode[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: redhat.vscode-xml[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: redhat.vscode-yaml[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: teamsdevapp.vscode-ai-foundry[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: toba.vsfire[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: vscjava.migrate-java-to-azure[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: vscjava.vscode-app-mod-pack[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: vscjava.vscode-java-upgrade[0m
+  [0;34mCopying extension...[0m
+  [0;34mCreating minimal package.json...[0m
+  [0;34mUpdating extensions registry...[0m
+[0;32m✓ Successfully installed: vscode.github[0m
