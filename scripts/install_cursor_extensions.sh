@@ -121,6 +121,99 @@ check_dependencies() {
     return 0
 }
 
+# Function to extract the VSIX file using the proper format
+extract_vsix() {
+    local vsix_file="$1"
+    local target_dir="$2"
+    local temp_dir="$3"
+    
+    log "DEBUG" "Extracting VSIX file: $vsix_file"
+    log "DEBUG" "Target directory: $target_dir"
+    log "DEBUG" "Temp directory: $temp_dir"
+    
+    # Create temp directory if it doesn't exist
+    mkdir -p "$temp_dir"
+    
+    # VSIX files are ZIP files, extract them to the temp directory
+    log "VERBOSE" "Extracting VSIX contents to temp directory..."
+    if ! unzip -q "$vsix_file" -d "$temp_dir"; then
+        log "ERROR" "Failed to extract VSIX file: $vsix_file"
+        return 1
+    fi
+    
+    # Create target directory
+    mkdir -p "$target_dir"
+    
+    # Check if extension/ directory exists in the temp dir
+    if [ -d "$temp_dir/extension" ]; then
+        # Move contents from the extension/ directory to the target
+        log "VERBOSE" "Moving extension contents to target directory..."
+        cp -r "$temp_dir/extension/"* "$target_dir/"
+    else
+        # Move all contents to the target
+        log "VERBOSE" "Moving all contents to target directory..."
+        cp -r "$temp_dir/"* "$target_dir/"
+    fi
+    
+    # Check if we have a package.json file
+    if [ ! -f "$target_dir/package.json" ]; then
+        log "WARN" "No package.json found in the VSIX file, creating minimal one..."
+        # Extract information from the filename or .vsixmanifest if available
+        local extension_id=$(basename "$vsix_file" .vsix | sed -E 's/(@|-)([0-9]+\.[0-9]+\.[0-9]+.*)//')
+        local version=$(basename "$vsix_file" .vsix | grep -oE '([0-9]+\.[0-9]+\.[0-9]+.*)' || echo "1.0.0")
+        
+        # Create minimal package.json
+        echo "{\"name\":\"$extension_id\",\"version\":\"$version\",\"engines\":{\"vscode\":\"^1.70.0\"}}" > "$target_dir/package.json"
+    fi
+    
+    # Check if we have an extension.vsixmanifest file
+    if [ -f "$temp_dir/extension.vsixmanifest" ]; then
+        log "VERBOSE" "Found extension.vsixmanifest, copying to target..."
+        cp "$temp_dir/extension.vsixmanifest" "$target_dir/.vsixmanifest"
+    fi
+    
+    # Create the .vsixmanifest file if it doesn't exist
+    if [ ! -f "$target_dir/.vsixmanifest" ]; then
+        log "WARN" "No .vsixmanifest found, creating from package.json..."
+        # Extract info from package.json
+        if [ -f "$target_dir/package.json" ]; then
+            local pkg_name=$(grep -o '"name":[^,]*' "$target_dir/package.json" | head -1 | sed 's/"name"://;s/"//g;s/^ *//;s/ *$//')
+            local pkg_version=$(grep -o '"version":[^,]*' "$target_dir/package.json" | head -1 | sed 's/"version"://;s/"//g;s/^ *//;s/ *$//')
+            local pkg_publisher=$(grep -o '"publisher":[^,]*' "$target_dir/package.json" | head -1 | sed 's/"publisher"://;s/"//g;s/^ *//;s/ *$//')
+            local pkg_displayName=$(grep -o '"displayName":[^,]*' "$target_dir/package.json" | head -1 | sed 's/"displayName"://;s/"//g;s/^ *//;s/ *$//')
+            
+            # If publisher not found, try to extract from name
+            if [ -z "$pkg_publisher" ]; then
+                if [[ "$pkg_name" == *"."* ]]; then
+                    pkg_publisher="${pkg_name%%.*}"
+                    pkg_name="${pkg_name#*.}"
+                fi
+            fi
+            
+            # Create basic .vsixmanifest
+            cat > "$target_dir/.vsixmanifest" << EOF
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="${pkg_publisher:-unknown}.${pkg_name}" Version="${pkg_version}" Publisher="${pkg_publisher:-unknown}" />
+    <DisplayName>${pkg_displayName:-$pkg_name}</DisplayName>
+    <Description>Extension imported from VSIX</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code" />
+  </Installation>
+  <Dependencies />
+</PackageManifest>
+EOF
+        fi
+    fi
+    
+    # Clean up temp directory
+    rm -rf "$temp_dir"
+    
+    return 0
+}
+
 # Function to detect the Cursor installation
 detect_cursor() {
     log "INFO" "Detecting Cursor IDE installation..."
@@ -206,14 +299,115 @@ parse_extension_filename() {
     echo "$id:$version"
 }
 
+# Function to extract extension information from package.json or vsixmanifest
+extract_extension_info() {
+    local ext_dir="$1"
+    local ext_id=""
+    local ext_version=""
+    local ext_publisher=""
+    local ext_name=""
+    
+    # Try to get info from package.json first
+    if [ -f "$ext_dir/package.json" ]; then
+        log "DEBUG" "Extracting info from package.json"
+        
+        # Extract basic info
+        ext_name=$(grep -o '"name":[^,]*' "$ext_dir/package.json" | head -1 | sed 's/"name"://;s/"//g;s/^ *//;s/ *$//')
+        ext_version=$(grep -o '"version":[^,]*' "$ext_dir/package.json" | head -1 | sed 's/"version"://;s/"//g;s/^ *//;s/ *$//')
+        ext_publisher=$(grep -o '"publisher":[^,]*' "$ext_dir/package.json" | head -1 | sed 's/"publisher"://;s/"//g;s/^ *//;s/ *$//')
+        
+        # If publisher not found, try to extract from name
+        if [ -z "$ext_publisher" ]; then
+            if [[ "$ext_name" == *"."* ]]; then
+                ext_publisher="${ext_name%%.*}"
+                ext_name="${ext_name#*.}"
+            fi
+        fi
+        
+        # Construct extension ID
+        if [ -n "$ext_publisher" ] && [ -n "$ext_name" ]; then
+            ext_id="${ext_publisher}.${ext_name}"
+        elif [ -n "$ext_name" ]; then
+            ext_id="$ext_name"
+        fi
+    fi
+    
+    # If we couldn't get info from package.json, try vsixmanifest
+    if [ -z "$ext_id" ] || [ -z "$ext_version" ]; then
+        if [ -f "$ext_dir/.vsixmanifest" ]; then
+            log "DEBUG" "Extracting info from .vsixmanifest"
+            
+            # Extract Identity attributes
+            local identity_line=$(grep -o '<Identity[^>]*>' "$ext_dir/.vsixmanifest")
+            
+            if [[ "$identity_line" =~ Id=\"([^\"]+)\" ]]; then
+                ext_id="${BASH_REMATCH[1]}"
+            fi
+            
+            if [[ "$identity_line" =~ Version=\"([^\"]+)\" ]]; then
+                ext_version="${BASH_REMATCH[1]}"
+            fi
+            
+            if [[ "$identity_line" =~ Publisher=\"([^\"]+)\" ]]; then
+                ext_publisher="${BASH_REMATCH[1]}"
+            fi
+        fi
+    fi
+    
+    # If we still don't have an ID, use the directory name
+    if [ -z "$ext_id" ]; then
+        ext_id=$(basename "$ext_dir")
+        # Try to extract version from directory name
+        if [[ "$ext_id" =~ ^([^-]+)-([0-9]+\.[0-9]+\.[0-9].*)$ ]]; then
+            ext_id="${BASH_REMATCH[1]}"
+            ext_version="${BASH_REMATCH[2]}"
+        fi
+    fi
+    
+    # Return the extension ID and version
+    echo "$ext_id:$ext_version:$ext_publisher"
+}
+
 # Function to create or update extensions.json
 update_extensions_json() {
     local id="$1"
     local version="$2"
     local extension_dir="$3"
+    local publisher="$4"
     
-    # Create a simplified entry for the extension
-    local new_entry="{\"identifier\":{\"id\":\"$id\"},\"version\":\"$version\",\"location\":{\"$extension_dir\":true}}"
+    # Create a more detailed entry for the extension
+    local display_name=""
+    local description=""
+    
+    # Try to get display name and description from package.json
+    if [ -f "$extension_dir/package.json" ]; then
+        display_name=$(grep -o '"displayName":[^,]*' "$extension_dir/package.json" | head -1 | sed 's/"displayName"://;s/"//g;s/^ *//;s/ *$//')
+        description=$(grep -o '"description":[^,]*' "$extension_dir/package.json" | head -1 | sed 's/"description"://;s/"//g;s/^ *//;s/ *$//')
+    fi
+    
+    # Create entry with more metadata
+    local new_entry="{\"identifier\":{\"id\":\"$id\""
+    
+    # Add publisher if available
+    if [ -n "$publisher" ]; then
+        new_entry="$new_entry,\"publisher\":\"$publisher\""
+    fi
+    
+    # Finalize the entry
+    new_entry="$new_entry},\"version\":\"$version\",\"location\":{\"$extension_dir\":true}"
+    
+    # Add display name if available
+    if [ -n "$display_name" ]; then
+        new_entry="$new_entry,\"displayName\":\"$display_name\""
+    fi
+    
+    # Add description if available
+    if [ -n "$description" ]; then
+        new_entry="$new_entry,\"description\":\"$description\""
+    fi
+    
+    # Close the entry
+    new_entry="$new_entry}"
     
     log "VERBOSE" "Adding entry to extensions.json: $new_entry"
     
@@ -249,6 +443,7 @@ install_extension() {
     
     local ext_filename=$(basename "$ext_file")
     local ext_target_dir="$CURSOR_EXTENSIONS_DIR/$ext_id-$ext_version"
+    local ext_temp_dir="$TEMP_DIR/$(basename "$ext_file" .vsix)"
     
     log "INFO" "Installing: $ext_id ($ext_version)"
     log "VERBOSE" "Source file: $ext_file"
@@ -270,40 +465,43 @@ install_extension() {
         fi
     fi
     
-    # Create the directory
-    mkdir -p "$ext_target_dir"
-    if [ $? -ne 0 ]; then
-        log "ERROR" "Failed to create directory: $ext_target_dir"
+    # Create temp directory for extraction
+    mkdir -p "$ext_temp_dir"
+    
+    # Extract VSIX to proper directory structure
+    log "VERBOSE" "Extracting VSIX contents..."
+    if ! extract_vsix "$ext_file" "$ext_target_dir" "$ext_temp_dir"; then
+        log "ERROR" "Failed to extract VSIX file: $ext_file"
+        rm -rf "$ext_temp_dir"
         return 1
     fi
     
-    # Copy the extension file
-    log "VERBOSE" "Copying extension file..."
-    cp "$ext_file" "$ext_target_dir/extension.vsix"
-    if [ $? -ne 0 ]; then
-        log "ERROR" "Failed to copy extension file to $ext_target_dir"
-        return 1
+    # Extract extension metadata
+    log "VERBOSE" "Extracting extension metadata..."
+    local ext_info=$(extract_extension_info "$ext_target_dir")
+    local extracted_id="${ext_info%%:*}"
+    local remaining="${ext_info#*:}"
+    local extracted_version="${remaining%%:*}"
+    local extracted_publisher="${remaining#*:}"
+    
+    # Use extracted info if better than what we have
+    if [ -n "$extracted_id" ] && [ "$extracted_id" != "unknown" ]; then
+        ext_id="$extracted_id"
     fi
     
-    # Create minimal package.json if it doesn't exist
-    if [ ! -f "$ext_target_dir/package.json" ]; then
-        log "VERBOSE" "Creating minimal package.json..."
-        echo "{\"name\":\"$ext_id\",\"version\":\"$ext_version\",\"engines\":{\"vscode\":\"^1.70.0\"}}" > "$ext_target_dir/package.json"
-        if [ $? -ne 0 ]; then
-            log "ERROR" "Failed to create package.json in $ext_target_dir"
-            return 1
-        fi
+    if [ -n "$extracted_version" ] && [ "$extracted_version" != "unknown" ]; then
+        ext_version="$extracted_version"
     fi
     
-    # Update extensions.json
+    # Update extensions.json with rich metadata
     log "VERBOSE" "Updating extensions registry..."
-    update_extensions_json "$ext_id" "$ext_version" "$ext_target_dir"
+    update_extensions_json "$ext_id" "$ext_version" "$ext_target_dir" "$extracted_publisher"
     if [ $? -ne 0 ]; then
         log "ERROR" "Failed to update extensions.json for $ext_id"
         return 1
     fi
     
-    log "SUCCESS" "Successfully installed: $ext_id"
+    log "SUCCESS" "Successfully installed: $ext_id ($ext_version)"
     return 0
 }
 
@@ -388,6 +586,11 @@ main() {
         esac
     done
     
+    # Set up temp directory
+    TEMP_DIR="/tmp/cursor_extensions_$(date +%s)"
+    mkdir -p "$TEMP_DIR"
+    trap 'rm -rf "$TEMP_DIR"' EXIT
+    
     # Print banner if not in quiet mode
     [ "$QUIET" = false ] && print_banner
     
@@ -408,7 +611,7 @@ main() {
     fi
     
     # Check dependencies
-    check_dependencies "unzip" || exit 1
+    check_dependencies "unzip" "sed" "grep" || exit 1
     
     # Detect Cursor installation
     detect_cursor || exit 1

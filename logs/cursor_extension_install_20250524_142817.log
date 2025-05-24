@@ -1,0 +1,855 @@
+[2025-05-24 14:28:17] INFO: Starting Cursor extension installation
+[2025-05-24 14:28:17] DEBUG: Arguments: CURSOR_PATH='', SOURCE_DIR='./extensions', INSTALL_ALL=true
+[2025-05-24 14:28:17] DEBUG: Converting to absolute path: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions
+[2025-05-24 14:28:17] INFO: Checking dependencies...
+[2025-05-24 14:28:17] DEBUG: Found dependency: unzip
+[2025-05-24 14:28:17] DEBUG: Found dependency: sed
+[2025-05-24 14:28:17] DEBUG: Found dependency: grep
+[2025-05-24 14:28:17] INFO: Detecting Cursor IDE installation...
+[2025-05-24 14:28:17] SUCCESS: Found Cursor IDE at: /home/jose.guzman/Applications/Cursor.AppImage
+[2025-05-24 14:28:17] INFO: Created backup of extensions.json at /home/jose.guzman/.cursor/extensions/extensions.json.backup.20250524142817
+[2025-05-24 14:28:17] INFO: Found 67 extensions in the source directory
+[2025-05-24 14:28:17] INFO: Checking currently installed extensions...
+[2025-05-24 14:28:17] VERBOSE: Found installed: extensions (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: apidev.azure-api-center-1.1.2025052203 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: eamodio.gitlens (17.1.1)
+[2025-05-24 14:28:17] VERBOSE: Found installed: eamodio.gitlens (2025.5.2405)
+[2025-05-24 14:28:17] VERBOSE: Found installed: firsttris.vscode-jest-runner-0.4.82 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: github.codespaces (1.17.3)
+[2025-05-24 14:28:17] VERBOSE: Found installed: github.copilot (1.323.1582)
+[2025-05-24 14:28:17] VERBOSE: Found installed: github.copilot-chat-0.28.2025052301 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: github.copilot-workspace-0.5.4 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: github.remotehub (0.65.2024112101)
+[2025-05-24 14:28:17] VERBOSE: Found installed: github.vscode-codeql-1.17.2 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: GitHub.vscode-codeql-1.17.2 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: GitHub.vscode-codeql-1.17.2-1.0.0 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: github.vscode-github-actions-0.27.1 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: GitHub.vscode-github-actions-0.27.1-1.0.0 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: github.vscode-pull-request-github-0.102.0 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: GitHub.vscode-pull-request-github-0.110.0 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: GitHub.vscode-pull-request-github-0.110.0-1.0.0 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: github.vscode-pull-request-github-0.111.2025052204 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: googlecloudtools.cloudcode (2.30.0)
+[2025-05-24 14:28:17] VERBOSE: Found installed: google.geminicodeassist (2.33.0)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azure-load-testing.microsoft-testing-0.1.14 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.azure-dev-0.9.0 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-azureappservice-0.26.1 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-azurecontainerapps-0.8.2 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-azurefunctions-1.17.3 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-azure-github-copilot-1.0.8 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-azureresourcegroups-0.10.11 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-azurestaticwebapps-0.13.1 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-azurestorage-0.16.4 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-azurevirtualmachines-0.6.8 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-containers-2.0.1 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-cosmosdb-0.26.0 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-docker-1.29.4 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-azuretools.vscode-docker-1.29.6 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-ceintl.vscode-language-pack-es-1.101.2025052109 (version unknown)
+[2025-05-24 14:28:17] VERBOSE: Found installed: ms-ceintl.vscode-language-pack-zh-hans-1.101.2025052109 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-dotnettools.blazorwasm-companion-1.1.4 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-dotnettools.csdevkit-1.19.63 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-dotnettools.csharp-2.79.8 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-dotnettools.vscode-dotnet-runtime-2.3.4 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-edgedevtools.vscode-edge-devtools-2.1.8 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-kubernetes-tools.vscode-kubernetes-tools-1.3.20 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-kubernetes-tools.vscode-kubernetes-tools-1.3.23 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-python.debugpy-2025.8.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-python.debugpy-2025.8.0-linux-x64 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-python.python-2025.6.1 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-python.python-2025.6.1-linux-x64 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-python.vscode-pylance-2025.5.1 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-0.0.74 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-cpp-0.0.7 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-c-sharp-0.0.8 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-go-0.0.8 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-java-0.0.8 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-kotlin-0.0.8 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-php-0.0.8 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-python-0.0.7 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-rust-0.0.8 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.anycode-typescript-0.0.7 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.azure-repos-0.41.2024112101 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.remote-explorer-0.6.2025051209 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode-remote.remote-containers-0.394.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode-remote.remote-containers-0.414.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode-remote.remote-ssh-0.121.2025050915 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode-remote.remote-ssh-edit-0.87.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode-remote.remote-wsl-0.99.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.remote-repositories-0.43.2024112101 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.remote-server-1.6.2025041509 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode-remote.vscode-remote-extensionpack-0.26.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.vscode-node-azure-pack-1.6.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: ms-vscode.vscode-speech-0.15.2025052212 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: quantum.qsharp-lang-vscode-1.16.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: redhat.vscode-xml-0.29.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: redhat.vscode-yaml-1.18.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: teamsdevapp.vscode-ai-foundry-0.5.1 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: toba.vsfire (1.4.1)
+[2025-05-24 14:28:18] VERBOSE: Found installed: vscjava.migrate-java-to-azure-0.3.2025052301 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: vscjava.vscode-app-mod-pack-0.2.1 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: vscjava.vscode-java-upgrade-0.14.0 (version unknown)
+[2025-05-24 14:28:18] VERBOSE: Found installed: vscode.github (1.95.3)
+[2025-05-24 14:28:18] INFO: Found 80 extensions currently installed
+[2025-05-24 14:28:18] INFO: Analyzing extensions to install...
+[2025-05-24 14:28:18] DEBUG: New: apidev.azure-api-center (1.1.2025052203)
+[2025-05-24 14:28:18] INFO: Update available: eamodio.gitlens (17.1.1 → 2025.5.2405)
+[2025-05-24 14:28:18] DEBUG: Update: eamodio.gitlens (2025.5.2405)
+[2025-05-24 14:28:18] DEBUG: New: firsttris.vscode-jest-runner (0.4.82)
+[2025-05-24 14:28:18] DEBUG: Skip: github.codespaces (already installed)
+[2025-05-24 14:28:18] DEBUG: Skip: github.copilot (already installed)
+[2025-05-24 14:28:18] DEBUG: New: github.copilot-chat (0.28.2025052301)
+[2025-05-24 14:28:18] DEBUG: New: github.copilot-workspace (0.5.4)
+[2025-05-24 14:28:18] DEBUG: Skip: github.remotehub (already installed)
+[2025-05-24 14:28:18] DEBUG: Skip: GitHub.vscode-codeql-1.17.2 (already installed)
+[2025-05-24 14:28:18] DEBUG: Skip: GitHub.vscode-github-actions-0.27.1 (already installed)
+[2025-05-24 14:28:18] DEBUG: Skip: GitHub.vscode-pull-request-github-0.110.0 (already installed)
+[2025-05-24 14:28:18] DEBUG: New: github.vscode-pull-request-github (0.111.2025052204)
+[2025-05-24 14:28:18] DEBUG: Skip: googlecloudtools.cloudcode (already installed)
+[2025-05-24 14:28:18] DEBUG: Skip: google.geminicodeassist (already installed)
+[2025-05-24 14:28:18] DEBUG: New: ms-azure-load-testing.microsoft-testing (0.1.14)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.azure-dev (0.9.0)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-azureappservice (0.26.1)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-azurecontainerapps (0.8.2)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-azurefunctions (1.17.3)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-azure-github-copilot (1.0.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-azureresourcegroups (0.10.11)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-azurestaticwebapps (0.13.1)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-azurestorage (0.16.4)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-azurevirtualmachines (0.6.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-containers (2.0.1)
+[2025-05-24 14:28:18] DEBUG: New: ms-azuretools.vscode-cosmosdb (0.26.0)
+[2025-05-24 14:28:18] DEBUG: New: ms-ceintl.vscode-language-pack-es (1.101.2025052109)
+[2025-05-24 14:28:18] DEBUG: New: ms-ceintl.vscode-language-pack-zh-hans (1.101.2025052109)
+[2025-05-24 14:28:18] DEBUG: New: ms-dotnettools.blazorwasm-companion (1.1.4)
+[2025-05-24 14:28:18] DEBUG: New: ms-dotnettools.csdevkit (1.19.63)
+[2025-05-24 14:28:18] DEBUG: New: ms-dotnettools.csharp (2.79.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-dotnettools.vscode-dotnet-runtime (2.3.4)
+[2025-05-24 14:28:18] DEBUG: New: ms-edgedevtools.vscode-edge-devtools (2.1.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-kubernetes-tools.vscode-kubernetes-tools (1.3.23)
+[2025-05-24 14:28:18] DEBUG: New: ms-python.debugpy (2025.8.0)
+[2025-05-24 14:28:18] DEBUG: New: ms-python.python (2025.6.1)
+[2025-05-24 14:28:18] DEBUG: New: ms-python.vscode-pylance (2025.5.1)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode (0.0.74)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode-cpp (0.0.7)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode-c-sharp (0.0.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode-go (0.0.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode-java (0.0.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode-kotlin (0.0.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode-php (0.0.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode-python (0.0.7)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode-rust (0.0.8)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.anycode-typescript (0.0.7)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.azure-repos (0.41.2024112101)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.remote-explorer (0.6.2025051209)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode-remote.remote-containers (0.414.0)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode-remote.remote-ssh (0.121.2025050915)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode-remote.remote-ssh-edit (0.87.0)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode-remote.remote-wsl (0.99.0)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.remote-repositories (0.43.2024112101)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.remote-server (1.6.2025041509)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode-remote.vscode-remote-extensionpack (0.26.0)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.vscode-node-azure-pack (1.6.0)
+[2025-05-24 14:28:18] DEBUG: New: ms-vscode.vscode-speech (0.15.2025052212)
+[2025-05-24 14:28:18] DEBUG: New: quantum.qsharp-lang-vscode (1.16.0)
+[2025-05-24 14:28:18] DEBUG: New: redhat.vscode-xml (0.29.0)
+[2025-05-24 14:28:18] DEBUG: New: redhat.vscode-yaml (1.18.0)
+[2025-05-24 14:28:18] DEBUG: New: teamsdevapp.vscode-ai-foundry (0.5.1)
+[2025-05-24 14:28:18] DEBUG: Skip: toba.vsfire (already installed)
+[2025-05-24 14:28:18] DEBUG: New: vscjava.migrate-java-to-azure (0.3.2025052301)
+[2025-05-24 14:28:18] DEBUG: New: vscjava.vscode-app-mod-pack (0.2.1)
+[2025-05-24 14:28:18] DEBUG: New: vscjava.vscode-java-upgrade (0.14.0)
+[2025-05-24 14:28:18] DEBUG: Skip: vscode.github (already installed)
+[2025-05-24 14:28:18] INFO: Installation plan:
+[2025-05-24 14:28:18] INFO:   Total extensions in source: 67
+[2025-05-24 14:28:18] INFO:   Currently installed: 80
+[2025-05-24 14:28:18] INFO:   To be installed/updated: 57
+[2025-05-24 14:28:18] INFO:   To be skipped: 10
+[2025-05-24 14:28:39] INFO: Starting installation...
+[2025-05-24 14:28:39] INFO: Installing: apidev.azure-api-center (1.1.2025052203)
+[2025-05-24 14:28:39] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/apidev.azure-api-center@1.1.2025052203.vsix
+[2025-05-24 14:28:39] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/apidev.azure-api-center-1.1.2025052203
+[2025-05-24 14:28:39] WARN: Removing existing directory for apidev.azure-api-center
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:39] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/apidev.azure-api-center@1.1.2025052203.vsix
+[2025-05-24 14:28:39] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/apidev.azure-api-center-1.1.2025052203
+[2025-05-24 14:28:39] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/apidev.azure-api-center@1.1.2025052203
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/apidev.azure-api-center@1.1.2025052203.vsix
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/apidev.azure-api-center@1.1.2025052203.vsix
+[2025-05-24 14:28:39] ERROR: Failed to install: apidev.azure-api-center
+[2025-05-24 14:28:39] INFO: Installing: eamodio.gitlens (2025.5.2405)
+[2025-05-24 14:28:39] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/eamodio.gitlens@2025.5.2405.vsix
+[2025-05-24 14:28:39] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/eamodio.gitlens-2025.5.2405
+[2025-05-24 14:28:39] WARN: Removing existing directory for eamodio.gitlens
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:39] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/eamodio.gitlens@2025.5.2405.vsix
+[2025-05-24 14:28:39] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/eamodio.gitlens-2025.5.2405
+[2025-05-24 14:28:39] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/eamodio.gitlens@2025.5.2405
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/eamodio.gitlens@2025.5.2405.vsix
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/eamodio.gitlens@2025.5.2405.vsix
+[2025-05-24 14:28:39] ERROR: Failed to install: eamodio.gitlens
+[2025-05-24 14:28:39] INFO: Installing: firsttris.vscode-jest-runner (0.4.82)
+[2025-05-24 14:28:39] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/firsttris.vscode-jest-runner@0.4.82.vsix
+[2025-05-24 14:28:39] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/firsttris.vscode-jest-runner-0.4.82
+[2025-05-24 14:28:39] WARN: Removing existing directory for firsttris.vscode-jest-runner
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:39] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/firsttris.vscode-jest-runner@0.4.82.vsix
+[2025-05-24 14:28:39] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/firsttris.vscode-jest-runner-0.4.82
+[2025-05-24 14:28:39] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/firsttris.vscode-jest-runner@0.4.82
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/firsttris.vscode-jest-runner@0.4.82.vsix
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/firsttris.vscode-jest-runner@0.4.82.vsix
+[2025-05-24 14:28:39] ERROR: Failed to install: firsttris.vscode-jest-runner
+[2025-05-24 14:28:39] INFO: Installing: github.copilot-chat (0.28.2025052301)
+[2025-05-24 14:28:39] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.copilot-chat@0.28.2025052301.vsix
+[2025-05-24 14:28:39] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/github.copilot-chat-0.28.2025052301
+[2025-05-24 14:28:39] WARN: Removing existing directory for github.copilot-chat
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:39] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.copilot-chat@0.28.2025052301.vsix
+[2025-05-24 14:28:39] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/github.copilot-chat-0.28.2025052301
+[2025-05-24 14:28:39] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/github.copilot-chat@0.28.2025052301
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.copilot-chat@0.28.2025052301.vsix
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.copilot-chat@0.28.2025052301.vsix
+[2025-05-24 14:28:39] ERROR: Failed to install: github.copilot-chat
+[2025-05-24 14:28:39] INFO: Installing: github.copilot-workspace (0.5.4)
+[2025-05-24 14:28:39] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.copilot-workspace@0.5.4.vsix
+[2025-05-24 14:28:39] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/github.copilot-workspace-0.5.4
+[2025-05-24 14:28:39] WARN: Removing existing directory for github.copilot-workspace
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:39] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.copilot-workspace@0.5.4.vsix
+[2025-05-24 14:28:39] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/github.copilot-workspace-0.5.4
+[2025-05-24 14:28:39] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/github.copilot-workspace@0.5.4
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.copilot-workspace@0.5.4.vsix
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.copilot-workspace@0.5.4.vsix
+[2025-05-24 14:28:39] ERROR: Failed to install: github.copilot-workspace
+[2025-05-24 14:28:39] INFO: Installing: github.vscode-pull-request-github (0.111.2025052204)
+[2025-05-24 14:28:39] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.vscode-pull-request-github@0.111.2025052204.vsix
+[2025-05-24 14:28:39] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/github.vscode-pull-request-github-0.111.2025052204
+[2025-05-24 14:28:39] WARN: Removing existing directory for github.vscode-pull-request-github
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:39] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.vscode-pull-request-github@0.111.2025052204.vsix
+[2025-05-24 14:28:39] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/github.vscode-pull-request-github-0.111.2025052204
+[2025-05-24 14:28:39] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/github.vscode-pull-request-github@0.111.2025052204
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.vscode-pull-request-github@0.111.2025052204.vsix
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/github.vscode-pull-request-github@0.111.2025052204.vsix
+[2025-05-24 14:28:39] ERROR: Failed to install: github.vscode-pull-request-github
+[2025-05-24 14:28:39] INFO: Installing: ms-azure-load-testing.microsoft-testing (0.1.14)
+[2025-05-24 14:28:39] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azure-load-testing.microsoft-testing@0.1.14.vsix
+[2025-05-24 14:28:39] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azure-load-testing.microsoft-testing-0.1.14
+[2025-05-24 14:28:39] WARN: Removing existing directory for ms-azure-load-testing.microsoft-testing
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:39] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azure-load-testing.microsoft-testing@0.1.14.vsix
+[2025-05-24 14:28:39] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azure-load-testing.microsoft-testing-0.1.14
+[2025-05-24 14:28:39] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azure-load-testing.microsoft-testing@0.1.14
+[2025-05-24 14:28:39] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azure-load-testing.microsoft-testing@0.1.14.vsix
+[2025-05-24 14:28:39] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azure-load-testing.microsoft-testing@0.1.14.vsix
+[2025-05-24 14:28:39] ERROR: Failed to install: ms-azure-load-testing.microsoft-testing
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.azure-dev (0.9.0)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.azure-dev@0.9.0.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.azure-dev-0.9.0
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.azure-dev
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.azure-dev@0.9.0.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.azure-dev-0.9.0
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.azure-dev@0.9.0
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.azure-dev@0.9.0.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.azure-dev@0.9.0.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.azure-dev
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-azureappservice (0.26.1)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azureappservice@0.26.1.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azureappservice-0.26.1
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-azureappservice
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azureappservice@0.26.1.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azureappservice-0.26.1
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-azureappservice@0.26.1
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azureappservice@0.26.1.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azureappservice@0.26.1.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.vscode-azureappservice
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-azurecontainerapps (0.8.2)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurecontainerapps@0.8.2.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurecontainerapps-0.8.2
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-azurecontainerapps
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurecontainerapps@0.8.2.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurecontainerapps-0.8.2
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-azurecontainerapps@0.8.2
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurecontainerapps@0.8.2.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurecontainerapps@0.8.2.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.vscode-azurecontainerapps
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-azurefunctions (1.17.3)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurefunctions@1.17.3.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurefunctions-1.17.3
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-azurefunctions
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurefunctions@1.17.3.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurefunctions-1.17.3
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-azurefunctions@1.17.3
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurefunctions@1.17.3.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurefunctions@1.17.3.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.vscode-azurefunctions
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-azure-github-copilot (1.0.8)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azure-github-copilot@1.0.8.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azure-github-copilot-1.0.8
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-azure-github-copilot
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azure-github-copilot@1.0.8.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azure-github-copilot-1.0.8
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-azure-github-copilot@1.0.8
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azure-github-copilot@1.0.8.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azure-github-copilot@1.0.8.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.vscode-azure-github-copilot
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-azureresourcegroups (0.10.11)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azureresourcegroups@0.10.11.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azureresourcegroups-0.10.11
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-azureresourcegroups
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azureresourcegroups@0.10.11.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azureresourcegroups-0.10.11
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-azureresourcegroups@0.10.11
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azureresourcegroups@0.10.11.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azureresourcegroups@0.10.11.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.vscode-azureresourcegroups
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-azurestaticwebapps (0.13.1)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurestaticwebapps@0.13.1.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurestaticwebapps-0.13.1
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-azurestaticwebapps
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurestaticwebapps@0.13.1.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurestaticwebapps-0.13.1
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-azurestaticwebapps@0.13.1
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurestaticwebapps@0.13.1.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurestaticwebapps@0.13.1.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.vscode-azurestaticwebapps
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-azurestorage (0.16.4)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurestorage@0.16.4.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurestorage-0.16.4
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-azurestorage
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurestorage@0.16.4.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurestorage-0.16.4
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-azurestorage@0.16.4
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurestorage@0.16.4.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurestorage@0.16.4.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.vscode-azurestorage
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-azurevirtualmachines (0.6.8)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurevirtualmachines@0.6.8.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurevirtualmachines-0.6.8
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-azurevirtualmachines
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurevirtualmachines@0.6.8.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-azurevirtualmachines-0.6.8
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-azurevirtualmachines@0.6.8
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurevirtualmachines@0.6.8.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-azurevirtualmachines@0.6.8.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.vscode-azurevirtualmachines
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-containers (2.0.1)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-containers@2.0.1.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-containers-2.0.1
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-containers
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-containers@2.0.1.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-containers-2.0.1
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-containers@2.0.1
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-containers@2.0.1.vsix
+[2025-05-24 14:28:40] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-containers@2.0.1.vsix
+[2025-05-24 14:28:40] ERROR: Failed to install: ms-azuretools.vscode-containers
+[2025-05-24 14:28:40] INFO: Installing: ms-azuretools.vscode-cosmosdb (0.26.0)
+[2025-05-24 14:28:40] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-cosmosdb@0.26.0.vsix
+[2025-05-24 14:28:40] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-cosmosdb-0.26.0
+[2025-05-24 14:28:40] WARN: Removing existing directory for ms-azuretools.vscode-cosmosdb
+[2025-05-24 14:28:40] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:40] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-cosmosdb@0.26.0.vsix
+[2025-05-24 14:28:40] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-azuretools.vscode-cosmosdb-0.26.0
+[2025-05-24 14:28:40] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-azuretools.vscode-cosmosdb@0.26.0
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-cosmosdb@0.26.0.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-azuretools.vscode-cosmosdb@0.26.0.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-azuretools.vscode-cosmosdb
+[2025-05-24 14:28:41] INFO: Installing: ms-ceintl.vscode-language-pack-es (1.101.2025052109)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-ceintl.vscode-language-pack-es@1.101.2025052109.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-ceintl.vscode-language-pack-es-1.101.2025052109
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-ceintl.vscode-language-pack-es
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-ceintl.vscode-language-pack-es@1.101.2025052109.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-ceintl.vscode-language-pack-es-1.101.2025052109
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-ceintl.vscode-language-pack-es@1.101.2025052109
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-ceintl.vscode-language-pack-es@1.101.2025052109.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-ceintl.vscode-language-pack-es@1.101.2025052109.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-ceintl.vscode-language-pack-es
+[2025-05-24 14:28:41] INFO: Installing: ms-ceintl.vscode-language-pack-zh-hans (1.101.2025052109)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-ceintl.vscode-language-pack-zh-hans@1.101.2025052109.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.101.2025052109
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-ceintl.vscode-language-pack-zh-hans
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-ceintl.vscode-language-pack-zh-hans@1.101.2025052109.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.101.2025052109
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-ceintl.vscode-language-pack-zh-hans@1.101.2025052109
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-ceintl.vscode-language-pack-zh-hans@1.101.2025052109.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-ceintl.vscode-language-pack-zh-hans@1.101.2025052109.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-ceintl.vscode-language-pack-zh-hans
+[2025-05-24 14:28:41] INFO: Installing: ms-dotnettools.blazorwasm-companion (1.1.4)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.blazorwasm-companion@1.1.4.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-dotnettools.blazorwasm-companion-1.1.4
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-dotnettools.blazorwasm-companion
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.blazorwasm-companion@1.1.4.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-dotnettools.blazorwasm-companion-1.1.4
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-dotnettools.blazorwasm-companion@1.1.4
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.blazorwasm-companion@1.1.4.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.blazorwasm-companion@1.1.4.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-dotnettools.blazorwasm-companion
+[2025-05-24 14:28:41] INFO: Installing: ms-dotnettools.csdevkit (1.19.63)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.csdevkit@1.19.63.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-dotnettools.csdevkit-1.19.63
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-dotnettools.csdevkit
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.csdevkit@1.19.63.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-dotnettools.csdevkit-1.19.63
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-dotnettools.csdevkit@1.19.63
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.csdevkit@1.19.63.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.csdevkit@1.19.63.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-dotnettools.csdevkit
+[2025-05-24 14:28:41] INFO: Installing: ms-dotnettools.csharp (2.79.8)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.csharp@2.79.8.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-dotnettools.csharp-2.79.8
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-dotnettools.csharp
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.csharp@2.79.8.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-dotnettools.csharp-2.79.8
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-dotnettools.csharp@2.79.8
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.csharp@2.79.8.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.csharp@2.79.8.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-dotnettools.csharp
+[2025-05-24 14:28:41] INFO: Installing: ms-dotnettools.vscode-dotnet-runtime (2.3.4)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.vscode-dotnet-runtime@2.3.4.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.4
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-dotnettools.vscode-dotnet-runtime
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.vscode-dotnet-runtime@2.3.4.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.4
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-dotnettools.vscode-dotnet-runtime@2.3.4
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.vscode-dotnet-runtime@2.3.4.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-dotnettools.vscode-dotnet-runtime@2.3.4.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-dotnettools.vscode-dotnet-runtime
+[2025-05-24 14:28:41] INFO: Installing: ms-edgedevtools.vscode-edge-devtools (2.1.8)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-edgedevtools.vscode-edge-devtools@2.1.8.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-edgedevtools.vscode-edge-devtools
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-edgedevtools.vscode-edge-devtools@2.1.8.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-edgedevtools.vscode-edge-devtools@2.1.8
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-edgedevtools.vscode-edge-devtools@2.1.8.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-edgedevtools.vscode-edge-devtools@2.1.8.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-edgedevtools.vscode-edge-devtools
+[2025-05-24 14:28:41] INFO: Installing: ms-kubernetes-tools.vscode-kubernetes-tools (1.3.23)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-kubernetes-tools.vscode-kubernetes-tools@1.3.23.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.23
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-kubernetes-tools.vscode-kubernetes-tools
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-kubernetes-tools.vscode-kubernetes-tools@1.3.23.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.23
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-kubernetes-tools.vscode-kubernetes-tools@1.3.23
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-kubernetes-tools.vscode-kubernetes-tools@1.3.23.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-kubernetes-tools.vscode-kubernetes-tools@1.3.23.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-kubernetes-tools.vscode-kubernetes-tools
+[2025-05-24 14:28:41] INFO: Installing: ms-python.debugpy (2025.8.0)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.debugpy@2025.8.0.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-python.debugpy-2025.8.0
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-python.debugpy
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.debugpy@2025.8.0.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-python.debugpy-2025.8.0
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-python.debugpy@2025.8.0
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.debugpy@2025.8.0.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.debugpy@2025.8.0.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-python.debugpy
+[2025-05-24 14:28:41] INFO: Installing: ms-python.python (2025.6.1)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.python@2025.6.1.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-python.python-2025.6.1
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-python.python
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:41] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.python@2025.6.1.vsix
+[2025-05-24 14:28:41] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-python.python-2025.6.1
+[2025-05-24 14:28:41] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-python.python@2025.6.1
+[2025-05-24 14:28:41] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.python@2025.6.1.vsix
+[2025-05-24 14:28:41] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.python@2025.6.1.vsix
+[2025-05-24 14:28:41] ERROR: Failed to install: ms-python.python
+[2025-05-24 14:28:41] INFO: Installing: ms-python.vscode-pylance (2025.5.1)
+[2025-05-24 14:28:41] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.vscode-pylance@2025.5.1.vsix
+[2025-05-24 14:28:41] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-python.vscode-pylance-2025.5.1
+[2025-05-24 14:28:41] WARN: Removing existing directory for ms-python.vscode-pylance
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.vscode-pylance@2025.5.1.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-python.vscode-pylance-2025.5.1
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-python.vscode-pylance@2025.5.1
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.vscode-pylance@2025.5.1.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-python.vscode-pylance@2025.5.1.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-python.vscode-pylance
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode (0.0.74)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode@0.0.74.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-0.0.74
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode@0.0.74.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-0.0.74
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode@0.0.74
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode@0.0.74.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode@0.0.74.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode-cpp (0.0.7)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-cpp@0.0.7.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-cpp-0.0.7
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode-cpp
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-cpp@0.0.7.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-cpp-0.0.7
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode-cpp@0.0.7
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-cpp@0.0.7.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-cpp@0.0.7.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode-cpp
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode-c-sharp (0.0.8)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-c-sharp@0.0.8.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-c-sharp-0.0.8
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode-c-sharp
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-c-sharp@0.0.8.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-c-sharp-0.0.8
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode-c-sharp@0.0.8
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-c-sharp@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-c-sharp@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode-c-sharp
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode-go (0.0.8)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-go@0.0.8.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-go-0.0.8
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode-go
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-go@0.0.8.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-go-0.0.8
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode-go@0.0.8
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-go@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-go@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode-go
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode-java (0.0.8)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-java@0.0.8.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-java-0.0.8
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode-java
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-java@0.0.8.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-java-0.0.8
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode-java@0.0.8
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-java@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-java@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode-java
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode-kotlin (0.0.8)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-kotlin@0.0.8.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-kotlin-0.0.8
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode-kotlin
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-kotlin@0.0.8.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-kotlin-0.0.8
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode-kotlin@0.0.8
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-kotlin@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-kotlin@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode-kotlin
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode-php (0.0.8)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-php@0.0.8.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-php-0.0.8
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode-php
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-php@0.0.8.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-php-0.0.8
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode-php@0.0.8
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-php@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-php@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode-php
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode-python (0.0.7)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-python@0.0.7.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-python-0.0.7
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode-python
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-python@0.0.7.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-python-0.0.7
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode-python@0.0.7
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-python@0.0.7.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-python@0.0.7.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode-python
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode-rust (0.0.8)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-rust@0.0.8.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-rust-0.0.8
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode-rust
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-rust@0.0.8.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-rust-0.0.8
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode-rust@0.0.8
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-rust@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-rust@0.0.8.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode-rust
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.anycode-typescript (0.0.7)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-typescript@0.0.7.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-typescript-0.0.7
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.anycode-typescript
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-typescript@0.0.7.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.anycode-typescript-0.0.7
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.anycode-typescript@0.0.7
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-typescript@0.0.7.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.anycode-typescript@0.0.7.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.anycode-typescript
+[2025-05-24 14:28:42] INFO: Installing: ms-vscode.azure-repos (0.41.2024112101)
+[2025-05-24 14:28:42] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.azure-repos@0.41.2024112101.vsix
+[2025-05-24 14:28:42] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.azure-repos-0.41.2024112101
+[2025-05-24 14:28:42] WARN: Removing existing directory for ms-vscode.azure-repos
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:42] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.azure-repos@0.41.2024112101.vsix
+[2025-05-24 14:28:42] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.azure-repos-0.41.2024112101
+[2025-05-24 14:28:42] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.azure-repos@0.41.2024112101
+[2025-05-24 14:28:42] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.azure-repos@0.41.2024112101.vsix
+[2025-05-24 14:28:42] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.azure-repos@0.41.2024112101.vsix
+[2025-05-24 14:28:42] ERROR: Failed to install: ms-vscode.azure-repos
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode.remote-explorer (0.6.2025051209)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-explorer@0.6.2025051209.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.remote-explorer-0.6.2025051209
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode.remote-explorer
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-explorer@0.6.2025051209.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.remote-explorer-0.6.2025051209
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.remote-explorer@0.6.2025051209
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-explorer@0.6.2025051209.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-explorer@0.6.2025051209.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode.remote-explorer
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode-remote.remote-containers (0.414.0)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-containers@0.414.0.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.remote-containers-0.414.0
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode-remote.remote-containers
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-containers@0.414.0.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.remote-containers-0.414.0
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode-remote.remote-containers@0.414.0
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-containers@0.414.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-containers@0.414.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode-remote.remote-containers
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode-remote.remote-ssh (0.121.2025050915)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.remote-ssh-0.121.2025050915
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode-remote.remote-ssh
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.remote-ssh-0.121.2025050915
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode-remote.remote-ssh@0.121.2025050915
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode-remote.remote-ssh
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode-remote.remote-ssh-edit (0.87.0)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-ssh-edit@0.87.0.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.remote-ssh-edit-0.87.0
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode-remote.remote-ssh-edit
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-ssh-edit@0.87.0.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.remote-ssh-edit-0.87.0
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode-remote.remote-ssh-edit@0.87.0
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-ssh-edit@0.87.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-ssh-edit@0.87.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode-remote.remote-ssh-edit
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode-remote.remote-wsl (0.99.0)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-wsl@0.99.0.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.remote-wsl-0.99.0
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode-remote.remote-wsl
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-wsl@0.99.0.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.remote-wsl-0.99.0
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode-remote.remote-wsl@0.99.0
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-wsl@0.99.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.remote-wsl@0.99.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode-remote.remote-wsl
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode.remote-repositories (0.43.2024112101)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-repositories@0.43.2024112101.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.remote-repositories-0.43.2024112101
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode.remote-repositories
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-repositories@0.43.2024112101.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.remote-repositories-0.43.2024112101
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.remote-repositories@0.43.2024112101
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-repositories@0.43.2024112101.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-repositories@0.43.2024112101.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode.remote-repositories
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode.remote-server (1.6.2025041509)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-server@1.6.2025041509.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.remote-server-1.6.2025041509
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode.remote-server
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-server@1.6.2025041509.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.remote-server-1.6.2025041509
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.remote-server@1.6.2025041509
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-server@1.6.2025041509.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.remote-server@1.6.2025041509.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode.remote-server
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode-remote.vscode-remote-extensionpack (0.26.0)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.vscode-remote-extensionpack@0.26.0.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.vscode-remote-extensionpack-0.26.0
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode-remote.vscode-remote-extensionpack
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.vscode-remote-extensionpack@0.26.0.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode-remote.vscode-remote-extensionpack-0.26.0
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode-remote.vscode-remote-extensionpack@0.26.0
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.vscode-remote-extensionpack@0.26.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode-remote.vscode-remote-extensionpack@0.26.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode-remote.vscode-remote-extensionpack
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode.vscode-node-azure-pack (1.6.0)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.vscode-node-azure-pack@1.6.0.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.vscode-node-azure-pack-1.6.0
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode.vscode-node-azure-pack
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.vscode-node-azure-pack@1.6.0.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.vscode-node-azure-pack-1.6.0
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.vscode-node-azure-pack@1.6.0
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.vscode-node-azure-pack@1.6.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.vscode-node-azure-pack@1.6.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode.vscode-node-azure-pack
+[2025-05-24 14:28:43] INFO: Installing: ms-vscode.vscode-speech (0.15.2025052212)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.vscode-speech@0.15.2025052212.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.vscode-speech-0.15.2025052212
+[2025-05-24 14:28:43] WARN: Removing existing directory for ms-vscode.vscode-speech
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.vscode-speech@0.15.2025052212.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/ms-vscode.vscode-speech-0.15.2025052212
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/ms-vscode.vscode-speech@0.15.2025052212
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.vscode-speech@0.15.2025052212.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/ms-vscode.vscode-speech@0.15.2025052212.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: ms-vscode.vscode-speech
+[2025-05-24 14:28:43] INFO: Installing: quantum.qsharp-lang-vscode (1.16.0)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/quantum.qsharp-lang-vscode@1.16.0.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/quantum.qsharp-lang-vscode-1.16.0
+[2025-05-24 14:28:43] WARN: Removing existing directory for quantum.qsharp-lang-vscode
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/quantum.qsharp-lang-vscode@1.16.0.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/quantum.qsharp-lang-vscode-1.16.0
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/quantum.qsharp-lang-vscode@1.16.0
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/quantum.qsharp-lang-vscode@1.16.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/quantum.qsharp-lang-vscode@1.16.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: quantum.qsharp-lang-vscode
+[2025-05-24 14:28:43] INFO: Installing: redhat.vscode-xml (0.29.0)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/redhat.vscode-xml@0.29.0.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/redhat.vscode-xml-0.29.0
+[2025-05-24 14:28:43] WARN: Removing existing directory for redhat.vscode-xml
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/redhat.vscode-xml@0.29.0.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/redhat.vscode-xml-0.29.0
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/redhat.vscode-xml@0.29.0
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/redhat.vscode-xml@0.29.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/redhat.vscode-xml@0.29.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: redhat.vscode-xml
+[2025-05-24 14:28:43] INFO: Installing: redhat.vscode-yaml (1.18.0)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/redhat.vscode-yaml@1.18.0.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/redhat.vscode-yaml-1.18.0
+[2025-05-24 14:28:43] WARN: Removing existing directory for redhat.vscode-yaml
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:43] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/redhat.vscode-yaml@1.18.0.vsix
+[2025-05-24 14:28:43] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/redhat.vscode-yaml-1.18.0
+[2025-05-24 14:28:43] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/redhat.vscode-yaml@1.18.0
+[2025-05-24 14:28:43] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/redhat.vscode-yaml@1.18.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/redhat.vscode-yaml@1.18.0.vsix
+[2025-05-24 14:28:43] ERROR: Failed to install: redhat.vscode-yaml
+[2025-05-24 14:28:43] INFO: Installing: teamsdevapp.vscode-ai-foundry (0.5.1)
+[2025-05-24 14:28:43] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/teamsdevapp.vscode-ai-foundry@0.5.1.vsix
+[2025-05-24 14:28:43] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/teamsdevapp.vscode-ai-foundry-0.5.1
+[2025-05-24 14:28:43] WARN: Removing existing directory for teamsdevapp.vscode-ai-foundry
+[2025-05-24 14:28:44] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:44] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/teamsdevapp.vscode-ai-foundry@0.5.1.vsix
+[2025-05-24 14:28:44] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/teamsdevapp.vscode-ai-foundry-0.5.1
+[2025-05-24 14:28:44] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/teamsdevapp.vscode-ai-foundry@0.5.1
+[2025-05-24 14:28:44] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:44] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/teamsdevapp.vscode-ai-foundry@0.5.1.vsix
+[2025-05-24 14:28:44] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/teamsdevapp.vscode-ai-foundry@0.5.1.vsix
+[2025-05-24 14:28:44] ERROR: Failed to install: teamsdevapp.vscode-ai-foundry
+[2025-05-24 14:28:44] INFO: Installing: vscjava.migrate-java-to-azure (0.3.2025052301)
+[2025-05-24 14:28:44] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.migrate-java-to-azure@0.3.2025052301.vsix
+[2025-05-24 14:28:44] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/vscjava.migrate-java-to-azure-0.3.2025052301
+[2025-05-24 14:28:44] WARN: Removing existing directory for vscjava.migrate-java-to-azure
+[2025-05-24 14:28:44] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:44] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.migrate-java-to-azure@0.3.2025052301.vsix
+[2025-05-24 14:28:44] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/vscjava.migrate-java-to-azure-0.3.2025052301
+[2025-05-24 14:28:44] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/vscjava.migrate-java-to-azure@0.3.2025052301
+[2025-05-24 14:28:44] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:44] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.migrate-java-to-azure@0.3.2025052301.vsix
+[2025-05-24 14:28:44] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.migrate-java-to-azure@0.3.2025052301.vsix
+[2025-05-24 14:28:44] ERROR: Failed to install: vscjava.migrate-java-to-azure
+[2025-05-24 14:28:44] INFO: Installing: vscjava.vscode-app-mod-pack (0.2.1)
+[2025-05-24 14:28:44] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.vscode-app-mod-pack@0.2.1.vsix
+[2025-05-24 14:28:44] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/vscjava.vscode-app-mod-pack-0.2.1
+[2025-05-24 14:28:44] WARN: Removing existing directory for vscjava.vscode-app-mod-pack
+[2025-05-24 14:28:44] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:44] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.vscode-app-mod-pack@0.2.1.vsix
+[2025-05-24 14:28:44] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/vscjava.vscode-app-mod-pack-0.2.1
+[2025-05-24 14:28:44] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/vscjava.vscode-app-mod-pack@0.2.1
+[2025-05-24 14:28:44] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:44] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.vscode-app-mod-pack@0.2.1.vsix
+[2025-05-24 14:28:44] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.vscode-app-mod-pack@0.2.1.vsix
+[2025-05-24 14:28:44] ERROR: Failed to install: vscjava.vscode-app-mod-pack
+[2025-05-24 14:28:44] INFO: Installing: vscjava.vscode-java-upgrade (0.14.0)
+[2025-05-24 14:28:44] VERBOSE: Source file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.vscode-java-upgrade@0.14.0.vsix
+[2025-05-24 14:28:44] VERBOSE: Target directory: /home/jose.guzman/.cursor/extensions/vscjava.vscode-java-upgrade-0.14.0
+[2025-05-24 14:28:44] WARN: Removing existing directory for vscjava.vscode-java-upgrade
+[2025-05-24 14:28:44] VERBOSE: Extracting VSIX contents...
+[2025-05-24 14:28:44] DEBUG: Extracting VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.vscode-java-upgrade@0.14.0.vsix
+[2025-05-24 14:28:44] DEBUG: Target directory: /home/jose.guzman/.cursor/extensions/vscjava.vscode-java-upgrade-0.14.0
+[2025-05-24 14:28:44] DEBUG: Temp directory: /tmp/cursor_extensions_1748114897/vscjava.vscode-java-upgrade@0.14.0
+[2025-05-24 14:28:44] VERBOSE: Extracting VSIX contents to temp directory...
+[2025-05-24 14:28:44] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.vscode-java-upgrade@0.14.0.vsix
+[2025-05-24 14:28:44] ERROR: Failed to extract VSIX file: /home/jose.guzman/Downloads/vscodeinsidersextensions/./extensions/vscjava.vscode-java-upgrade@0.14.0.vsix
+[2025-05-24 14:28:44] ERROR: Failed to install: vscjava.vscode-java-upgrade
+[2025-05-24 14:28:44] INFO: Installation completed
+[2025-05-24 14:28:44] INFO: Total extensions installed/updated: 0
+[2025-05-24 14:28:44] INFO: Total extensions failed: 57
