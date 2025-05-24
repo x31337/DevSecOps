@@ -1,0 +1,5 @@
+# Log generated on 2025-05-24T14:58:36.966257
+GitHub.vscode-codeql-1.17.2.vsix: Not a valid gzip file
+GitHub.vscode-github-actions-0.27.1.vsix: Not a valid gzip file
+GitHub.vscode-pull-request-github-0.110.0.vsix: Not a valid gzip file
+vscode.github-1.95.3.vsix: Not a valid gzip file

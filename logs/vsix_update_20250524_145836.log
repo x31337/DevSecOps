@@ -1,0 +1,211 @@
+2025-05-24 14:58:36,966 - INFO - Found 67 VSIX files to process
+2025-05-24 14:58:36,967 - INFO - [1/67] Processing GitHub.vscode-codeql-1.17.2.vsix
+2025-05-24 14:58:36,967 - INFO - Processing: GitHub.vscode-codeql-1.17.2.vsix
+2025-05-24 14:58:36,968 - ERROR - The file GitHub.vscode-codeql-1.17.2.vsix is not a valid gzip file
+2025-05-24 14:58:36,968 - INFO - [2/67] Processing GitHub.vscode-github-actions-0.27.1.vsix
+2025-05-24 14:58:36,968 - INFO - Processing: GitHub.vscode-github-actions-0.27.1.vsix
+2025-05-24 14:58:36,969 - ERROR - The file GitHub.vscode-github-actions-0.27.1.vsix is not a valid gzip file
+2025-05-24 14:58:36,969 - INFO - [3/67] Processing GitHub.vscode-pull-request-github-0.110.0.vsix
+2025-05-24 14:58:36,969 - INFO - Processing: GitHub.vscode-pull-request-github-0.110.0.vsix
+2025-05-24 14:58:36,970 - ERROR - The file GitHub.vscode-pull-request-github-0.110.0.vsix is not a valid gzip file
+2025-05-24 14:58:36,970 - INFO - [4/67] Processing apidev.azure-api-center@1.1.2025052203.vsix
+2025-05-24 14:58:36,970 - INFO - Processing: apidev.azure-api-center@1.1.2025052203.vsix
+2025-05-24 14:58:38,507 - INFO - Successfully updated apidev.azure-api-center@1.1.2025052203.vsix: vscode engine ^1.99.0 -> ^1.99.0
+2025-05-24 14:58:38,523 - INFO - [5/67] Processing eamodio.gitlens@2025.5.2405.vsix
+2025-05-24 14:58:38,523 - INFO - Processing: eamodio.gitlens@2025.5.2405.vsix
+2025-05-24 14:58:39,844 - INFO - Successfully updated eamodio.gitlens@2025.5.2405.vsix: vscode engine ^1.92.0 -> ^1.99.0
+2025-05-24 14:58:39,858 - INFO - [6/67] Processing firsttris.vscode-jest-runner@0.4.82.vsix
+2025-05-24 14:58:39,858 - INFO - Processing: firsttris.vscode-jest-runner@0.4.82.vsix
+2025-05-24 14:58:40,389 - INFO - Successfully updated firsttris.vscode-jest-runner@0.4.82.vsix: vscode engine ^1.83.0 -> ^1.99.0
+2025-05-24 14:58:40,393 - INFO - [7/67] Processing github.codespaces@1.17.3.vsix
+2025-05-24 14:58:40,393 - INFO - Processing: github.codespaces@1.17.3.vsix
+2025-05-24 14:58:41,829 - INFO - Successfully updated github.codespaces@1.17.3.vsix: vscode engine ^1.85.0 -> ^1.99.0
+2025-05-24 14:58:41,837 - INFO - [8/67] Processing github.copilot-chat@0.28.2025052301.vsix
+2025-05-24 14:58:41,838 - INFO - Processing: github.copilot-chat@0.28.2025052301.vsix
+2025-05-24 14:58:43,086 - INFO - Successfully updated github.copilot-chat@0.28.2025052301.vsix: vscode engine ^1.101.0-20250523 -> ^1.99.0
+2025-05-24 14:58:43,096 - INFO - [9/67] Processing github.copilot-workspace@0.5.4.vsix
+2025-05-24 14:58:43,096 - INFO - Processing: github.copilot-workspace@0.5.4.vsix
+2025-05-24 14:58:46,182 - INFO - Successfully updated github.copilot-workspace@0.5.4.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 14:58:46,365 - INFO - [10/67] Processing github.copilot@1.323.1582.vsix
+2025-05-24 14:58:46,366 - INFO - Processing: github.copilot@1.323.1582.vsix
+2025-05-24 14:58:50,309 - INFO - Successfully updated github.copilot@1.323.1582.vsix: vscode engine ^1.98.0 -> ^1.99.0
+2025-05-24 14:58:50,341 - INFO - [11/67] Processing github.remotehub@0.65.2024112101.vsix
+2025-05-24 14:58:50,341 - INFO - Processing: github.remotehub@0.65.2024112101.vsix
+2025-05-24 14:58:50,543 - INFO - Successfully updated github.remotehub@0.65.2024112101.vsix: vscode engine ^1.78.0 -> ^1.99.0
+2025-05-24 14:58:50,545 - INFO - [12/67] Processing github.vscode-pull-request-github@0.111.2025052204.vsix
+2025-05-24 14:58:50,545 - INFO - Processing: github.vscode-pull-request-github@0.111.2025052204.vsix
+2025-05-24 14:58:51,013 - INFO - Successfully updated github.vscode-pull-request-github@0.111.2025052204.vsix: vscode engine ^1.100.0 -> ^1.99.0
+2025-05-24 14:58:51,020 - INFO - [13/67] Processing google.geminicodeassist@2.33.0.vsix
+2025-05-24 14:58:51,020 - INFO - Processing: google.geminicodeassist@2.33.0.vsix
+2025-05-24 14:59:06,047 - INFO - Successfully updated google.geminicodeassist@2.33.0.vsix: vscode engine ^1.82.0 -> ^1.99.0
+2025-05-24 14:59:06,187 - INFO - [14/67] Processing googlecloudtools.cloudcode@2.30.0.vsix
+2025-05-24 14:59:06,187 - INFO - Processing: googlecloudtools.cloudcode@2.30.0.vsix
+2025-05-24 14:59:23,588 - INFO - Successfully updated googlecloudtools.cloudcode@2.30.0.vsix: vscode engine ^1.82.0 -> ^1.99.0
+2025-05-24 14:59:23,763 - INFO - [15/67] Processing ms-azure-load-testing.microsoft-testing@0.1.14.vsix
+2025-05-24 14:59:23,764 - INFO - Processing: ms-azure-load-testing.microsoft-testing@0.1.14.vsix
+2025-05-24 14:59:25,272 - INFO - Successfully updated ms-azure-load-testing.microsoft-testing@0.1.14.vsix: vscode engine ^1.100.0 -> ^1.99.0
+2025-05-24 14:59:25,291 - INFO - [16/67] Processing ms-azuretools.azure-dev@0.9.0.vsix
+2025-05-24 14:59:25,292 - INFO - Processing: ms-azuretools.azure-dev@0.9.0.vsix
+2025-05-24 14:59:25,551 - INFO - Successfully updated ms-azuretools.azure-dev@0.9.0.vsix: vscode engine ^1.76.0 -> ^1.99.0
+2025-05-24 14:59:25,554 - INFO - [17/67] Processing ms-azuretools.vscode-azure-github-copilot@1.0.8.vsix
+2025-05-24 14:59:25,554 - INFO - Processing: ms-azuretools.vscode-azure-github-copilot@1.0.8.vsix
+2025-05-24 14:59:52,538 - INFO - Successfully updated ms-azuretools.vscode-azure-github-copilot@1.0.8.vsix: vscode engine ^1.99.0 -> ^1.99.0
+2025-05-24 14:59:52,731 - INFO - [18/67] Processing ms-azuretools.vscode-azureappservice@0.26.1.vsix
+2025-05-24 14:59:52,731 - INFO - Processing: ms-azuretools.vscode-azureappservice@0.26.1.vsix
+2025-05-24 14:59:53,069 - INFO - Successfully updated ms-azuretools.vscode-azureappservice@0.26.1.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 14:59:53,075 - INFO - [19/67] Processing ms-azuretools.vscode-azurecontainerapps@0.8.2.vsix
+2025-05-24 14:59:53,075 - INFO - Processing: ms-azuretools.vscode-azurecontainerapps@0.8.2.vsix
+2025-05-24 14:59:53,602 - INFO - Successfully updated ms-azuretools.vscode-azurecontainerapps@0.8.2.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 14:59:53,608 - INFO - [20/67] Processing ms-azuretools.vscode-azurefunctions@1.17.3.vsix
+2025-05-24 14:59:53,608 - INFO - Processing: ms-azuretools.vscode-azurefunctions@1.17.3.vsix
+2025-05-24 14:59:55,170 - INFO - Successfully updated ms-azuretools.vscode-azurefunctions@1.17.3.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 14:59:55,188 - INFO - [21/67] Processing ms-azuretools.vscode-azureresourcegroups@0.10.11.vsix
+2025-05-24 14:59:55,188 - INFO - Processing: ms-azuretools.vscode-azureresourcegroups@0.10.11.vsix
+2025-05-24 14:59:55,572 - INFO - Successfully updated ms-azuretools.vscode-azureresourcegroups@0.10.11.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 14:59:55,578 - INFO - [22/67] Processing ms-azuretools.vscode-azurestaticwebapps@0.13.1.vsix
+2025-05-24 14:59:55,578 - INFO - Processing: ms-azuretools.vscode-azurestaticwebapps@0.13.1.vsix
+2025-05-24 14:59:55,901 - INFO - Successfully updated ms-azuretools.vscode-azurestaticwebapps@0.13.1.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 14:59:55,905 - INFO - [23/67] Processing ms-azuretools.vscode-azurestorage@0.16.4.vsix
+2025-05-24 14:59:55,905 - INFO - Processing: ms-azuretools.vscode-azurestorage@0.16.4.vsix
+2025-05-24 15:00:07,507 - INFO - Successfully updated ms-azuretools.vscode-azurestorage@0.16.4.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 15:00:07,577 - INFO - [24/67] Processing ms-azuretools.vscode-azurevirtualmachines@0.6.8.vsix
+2025-05-24 15:00:07,577 - INFO - Processing: ms-azuretools.vscode-azurevirtualmachines@0.6.8.vsix
+2025-05-24 15:00:07,790 - INFO - Successfully updated ms-azuretools.vscode-azurevirtualmachines@0.6.8.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 15:00:07,794 - INFO - [25/67] Processing ms-azuretools.vscode-containers@2.0.1.vsix
+2025-05-24 15:00:07,794 - INFO - Processing: ms-azuretools.vscode-containers@2.0.1.vsix
+2025-05-24 15:00:08,198 - INFO - Successfully updated ms-azuretools.vscode-containers@2.0.1.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 15:00:08,206 - INFO - [26/67] Processing ms-azuretools.vscode-cosmosdb@0.26.0.vsix
+2025-05-24 15:00:08,206 - INFO - Processing: ms-azuretools.vscode-cosmosdb@0.26.0.vsix
+2025-05-24 15:00:09,192 - INFO - Successfully updated ms-azuretools.vscode-cosmosdb@0.26.0.vsix: vscode engine ^1.90.0 -> ^1.99.0
+2025-05-24 15:00:09,199 - INFO - [27/67] Processing ms-ceintl.vscode-language-pack-es@1.101.2025052109.vsix
+2025-05-24 15:00:09,200 - INFO - Processing: ms-ceintl.vscode-language-pack-es@1.101.2025052109.vsix
+2025-05-24 15:00:09,386 - INFO - Successfully updated ms-ceintl.vscode-language-pack-es@1.101.2025052109.vsix: vscode engine ^1.101.0 -> ^1.99.0
+2025-05-24 15:00:09,390 - INFO - [28/67] Processing ms-ceintl.vscode-language-pack-zh-hans@1.101.2025052109.vsix
+2025-05-24 15:00:09,391 - INFO - Processing: ms-ceintl.vscode-language-pack-zh-hans@1.101.2025052109.vsix
+2025-05-24 15:00:09,527 - INFO - Successfully updated ms-ceintl.vscode-language-pack-zh-hans@1.101.2025052109.vsix: vscode engine ^1.101.0 -> ^1.99.0
+2025-05-24 15:00:09,530 - INFO - [29/67] Processing ms-dotnettools.blazorwasm-companion@1.1.4.vsix
+2025-05-24 15:00:09,530 - INFO - Processing: ms-dotnettools.blazorwasm-companion@1.1.4.vsix
+2025-05-24 15:00:09,542 - INFO - Successfully updated ms-dotnettools.blazorwasm-companion@1.1.4.vsix: vscode engine ^1.69.0 -> ^1.99.0
+2025-05-24 15:00:09,544 - INFO - [30/67] Processing ms-dotnettools.csdevkit@1.19.63.vsix
+2025-05-24 15:00:09,544 - INFO - Processing: ms-dotnettools.csdevkit@1.19.63.vsix
+2025-05-24 15:00:22,598 - INFO - Successfully updated ms-dotnettools.csdevkit@1.19.63.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 15:00:22,696 - INFO - [31/67] Processing ms-dotnettools.csharp@2.79.8.vsix
+2025-05-24 15:00:22,696 - INFO - Processing: ms-dotnettools.csharp@2.79.8.vsix
+2025-05-24 15:01:01,927 - INFO - Successfully updated ms-dotnettools.csharp@2.79.8.vsix: vscode engine ^1.93.0 -> ^1.99.0
+2025-05-24 15:01:02,204 - INFO - [32/67] Processing ms-dotnettools.vscode-dotnet-runtime@2.3.4.vsix
+2025-05-24 15:01:02,205 - INFO - Processing: ms-dotnettools.vscode-dotnet-runtime@2.3.4.vsix
+2025-05-24 15:01:02,611 - INFO - Successfully updated ms-dotnettools.vscode-dotnet-runtime@2.3.4.vsix: vscode engine ^1.99.0 -> ^1.99.0
+2025-05-24 15:01:02,614 - INFO - [33/67] Processing ms-edgedevtools.vscode-edge-devtools@2.1.8.vsix
+2025-05-24 15:01:02,614 - INFO - Processing: ms-edgedevtools.vscode-edge-devtools@2.1.8.vsix
+2025-05-24 15:01:02,891 - INFO - Successfully updated ms-edgedevtools.vscode-edge-devtools@2.1.8.vsix: vscode engine ^1.93.0 -> ^1.99.0
+2025-05-24 15:01:02,895 - INFO - [34/67] Processing ms-kubernetes-tools.vscode-kubernetes-tools@1.3.23.vsix
+2025-05-24 15:01:02,895 - INFO - Processing: ms-kubernetes-tools.vscode-kubernetes-tools@1.3.23.vsix
+2025-05-24 15:01:03,455 - INFO - Successfully updated ms-kubernetes-tools.vscode-kubernetes-tools@1.3.23.vsix: vscode engine ^1.98.0 -> ^1.99.0
+2025-05-24 15:01:03,461 - INFO - [35/67] Processing ms-python.debugpy@2025.8.0.vsix
+2025-05-24 15:01:03,461 - INFO - Processing: ms-python.debugpy@2025.8.0.vsix
+2025-05-24 15:01:05,157 - INFO - Successfully updated ms-python.debugpy@2025.8.0.vsix: vscode engine ^1.92.0 -> ^1.99.0
+2025-05-24 15:01:05,179 - INFO - [36/67] Processing ms-python.python@2025.6.1.vsix
+2025-05-24 15:01:05,179 - INFO - Processing: ms-python.python@2025.6.1.vsix
+2025-05-24 15:01:07,823 - INFO - Successfully updated ms-python.python@2025.6.1.vsix: vscode engine ^1.94.0-20240918 -> ^1.99.0
+2025-05-24 15:01:07,910 - INFO - [37/67] Processing ms-python.vscode-pylance@2025.5.1.vsix
+2025-05-24 15:01:07,910 - INFO - Processing: ms-python.vscode-pylance@2025.5.1.vsix
+2025-05-24 15:01:14,906 - INFO - Successfully updated ms-python.vscode-pylance@2025.5.1.vsix: vscode engine ^1.99.0 -> ^1.99.0
+2025-05-24 15:01:15,124 - INFO - [38/67] Processing ms-vscode-remote.remote-containers@0.414.0.vsix
+2025-05-24 15:01:15,124 - INFO - Processing: ms-vscode-remote.remote-containers@0.414.0.vsix
+2025-05-24 15:01:15,640 - INFO - Successfully updated ms-vscode-remote.remote-containers@0.414.0.vsix: vscode engine ^1.99.0 -> ^1.99.0
+2025-05-24 15:01:15,647 - INFO - [39/67] Processing ms-vscode-remote.remote-ssh-edit@0.87.0.vsix
+2025-05-24 15:01:15,647 - INFO - Processing: ms-vscode-remote.remote-ssh-edit@0.87.0.vsix
+2025-05-24 15:01:15,669 - INFO - Successfully updated ms-vscode-remote.remote-ssh-edit@0.87.0.vsix: vscode engine ^1.74.0 -> ^1.99.0
+2025-05-24 15:01:15,671 - INFO - [40/67] Processing ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+2025-05-24 15:01:15,671 - INFO - Processing: ms-vscode-remote.remote-ssh@0.121.2025050915.vsix
+2025-05-24 15:01:15,871 - INFO - Successfully updated ms-vscode-remote.remote-ssh@0.121.2025050915.vsix: vscode engine ^1.96.0 -> ^1.99.0
+2025-05-24 15:01:15,875 - INFO - [41/67] Processing ms-vscode-remote.remote-wsl@0.99.0.vsix
+2025-05-24 15:01:15,875 - INFO - Processing: ms-vscode-remote.remote-wsl@0.99.0.vsix
+2025-05-24 15:01:16,138 - INFO - Successfully updated ms-vscode-remote.remote-wsl@0.99.0.vsix: vscode engine ^1.99.0 -> ^1.99.0
+2025-05-24 15:01:16,142 - INFO - [42/67] Processing ms-vscode-remote.vscode-remote-extensionpack@0.26.0.vsix
+2025-05-24 15:01:16,142 - INFO - Processing: ms-vscode-remote.vscode-remote-extensionpack@0.26.0.vsix
+2025-05-24 15:01:16,155 - INFO - Successfully updated ms-vscode-remote.vscode-remote-extensionpack@0.26.0.vsix: vscode engine ^1.34.20 -> ^1.99.0
+2025-05-24 15:01:16,156 - INFO - [43/67] Processing ms-vscode.anycode-c-sharp@0.0.8.vsix
+2025-05-24 15:01:16,157 - INFO - Processing: ms-vscode.anycode-c-sharp@0.0.8.vsix
+2025-05-24 15:01:16,318 - INFO - Successfully updated ms-vscode.anycode-c-sharp@0.0.8.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:16,320 - INFO - [44/67] Processing ms-vscode.anycode-cpp@0.0.7.vsix
+2025-05-24 15:01:16,320 - INFO - Processing: ms-vscode.anycode-cpp@0.0.7.vsix
+2025-05-24 15:01:16,498 - INFO - Successfully updated ms-vscode.anycode-cpp@0.0.7.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:16,500 - INFO - [45/67] Processing ms-vscode.anycode-go@0.0.8.vsix
+2025-05-24 15:01:16,501 - INFO - Processing: ms-vscode.anycode-go@0.0.8.vsix
+2025-05-24 15:01:16,521 - INFO - Successfully updated ms-vscode.anycode-go@0.0.8.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:16,523 - INFO - [46/67] Processing ms-vscode.anycode-java@0.0.8.vsix
+2025-05-24 15:01:16,523 - INFO - Processing: ms-vscode.anycode-java@0.0.8.vsix
+2025-05-24 15:01:16,547 - INFO - Successfully updated ms-vscode.anycode-java@0.0.8.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:16,549 - INFO - [47/67] Processing ms-vscode.anycode-kotlin@0.0.8.vsix
+2025-05-24 15:01:16,549 - INFO - Processing: ms-vscode.anycode-kotlin@0.0.8.vsix
+2025-05-24 15:01:16,887 - INFO - Successfully updated ms-vscode.anycode-kotlin@0.0.8.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:16,891 - INFO - [48/67] Processing ms-vscode.anycode-php@0.0.8.vsix
+2025-05-24 15:01:16,891 - INFO - Processing: ms-vscode.anycode-php@0.0.8.vsix
+2025-05-24 15:01:16,932 - INFO - Successfully updated ms-vscode.anycode-php@0.0.8.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:16,934 - INFO - [49/67] Processing ms-vscode.anycode-python@0.0.7.vsix
+2025-05-24 15:01:16,934 - INFO - Processing: ms-vscode.anycode-python@0.0.7.vsix
+2025-05-24 15:01:16,964 - INFO - Successfully updated ms-vscode.anycode-python@0.0.7.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:16,966 - INFO - [50/67] Processing ms-vscode.anycode-rust@0.0.8.vsix
+2025-05-24 15:01:16,966 - INFO - Processing: ms-vscode.anycode-rust@0.0.8.vsix
+2025-05-24 15:01:17,010 - INFO - Successfully updated ms-vscode.anycode-rust@0.0.8.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:17,012 - INFO - [51/67] Processing ms-vscode.anycode-typescript@0.0.7.vsix
+2025-05-24 15:01:17,013 - INFO - Processing: ms-vscode.anycode-typescript@0.0.7.vsix
+2025-05-24 15:01:17,108 - INFO - Successfully updated ms-vscode.anycode-typescript@0.0.7.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:17,110 - INFO - [52/67] Processing ms-vscode.anycode@0.0.74.vsix
+2025-05-24 15:01:17,111 - INFO - Processing: ms-vscode.anycode@0.0.74.vsix
+2025-05-24 15:01:17,422 - INFO - Successfully updated ms-vscode.anycode@0.0.74.vsix: vscode engine ^1.80.0 -> ^1.99.0
+2025-05-24 15:01:17,425 - INFO - [53/67] Processing ms-vscode.azure-repos@0.41.2024112101.vsix
+2025-05-24 15:01:17,425 - INFO - Processing: ms-vscode.azure-repos@0.41.2024112101.vsix
+2025-05-24 15:01:17,602 - INFO - Successfully updated ms-vscode.azure-repos@0.41.2024112101.vsix: vscode engine ^1.78.0 -> ^1.99.0
+2025-05-24 15:01:17,604 - INFO - [54/67] Processing ms-vscode.remote-explorer@0.6.2025051209.vsix
+2025-05-24 15:01:17,605 - INFO - Processing: ms-vscode.remote-explorer@0.6.2025051209.vsix
+2025-05-24 15:01:17,626 - INFO - Successfully updated ms-vscode.remote-explorer@0.6.2025051209.vsix: vscode engine ^1.87.0 -> ^1.99.0
+2025-05-24 15:01:17,629 - INFO - [55/67] Processing ms-vscode.remote-repositories@0.43.2024112101.vsix
+2025-05-24 15:01:17,629 - INFO - Processing: ms-vscode.remote-repositories@0.43.2024112101.vsix
+2025-05-24 15:01:17,897 - INFO - Successfully updated ms-vscode.remote-repositories@0.43.2024112101.vsix: vscode engine ^1.78.0 -> ^1.99.0
+2025-05-24 15:01:17,900 - INFO - [56/67] Processing ms-vscode.remote-server@1.6.2025041509.vsix
+2025-05-24 15:01:17,901 - INFO - Processing: ms-vscode.remote-server@1.6.2025041509.vsix
+2025-05-24 15:01:18,189 - INFO - Successfully updated ms-vscode.remote-server@1.6.2025041509.vsix: vscode engine ^1.87.0 -> ^1.99.0
+2025-05-24 15:01:18,193 - INFO - [57/67] Processing ms-vscode.vscode-node-azure-pack@1.6.0.vsix
+2025-05-24 15:01:18,193 - INFO - Processing: ms-vscode.vscode-node-azure-pack@1.6.0.vsix
+2025-05-24 15:01:18,200 - INFO - Successfully updated ms-vscode.vscode-node-azure-pack@1.6.0.vsix: vscode engine ^1.92.0 -> ^1.99.0
+2025-05-24 15:01:18,201 - INFO - [58/67] Processing ms-vscode.vscode-speech@0.15.2025052212.vsix
+2025-05-24 15:01:18,201 - INFO - Processing: ms-vscode.vscode-speech@0.15.2025052212.vsix
+2025-05-24 15:01:43,870 - INFO - Successfully updated ms-vscode.vscode-speech@0.15.2025052212.vsix: vscode engine ^1.90.0 -> ^1.99.0
+2025-05-24 15:01:44,014 - INFO - [59/67] Processing quantum.qsharp-lang-vscode@1.16.0.vsix
+2025-05-24 15:01:44,014 - INFO - Processing: quantum.qsharp-lang-vscode@1.16.0.vsix
+2025-05-24 15:01:44,714 - INFO - Successfully updated quantum.qsharp-lang-vscode@1.16.0.vsix: vscode engine ^1.77.0 -> ^1.99.0
+2025-05-24 15:01:44,720 - INFO - [60/67] Processing redhat.vscode-xml@0.29.0.vsix
+2025-05-24 15:01:44,720 - INFO - Processing: redhat.vscode-xml@0.29.0.vsix
+2025-05-24 15:01:46,563 - INFO - Successfully updated redhat.vscode-xml@0.29.0.vsix: vscode engine ^1.67.0 -> ^1.99.0
+2025-05-24 15:01:46,581 - INFO - [61/67] Processing redhat.vscode-yaml@1.18.0.vsix
+2025-05-24 15:01:46,581 - INFO - Processing: redhat.vscode-yaml@1.18.0.vsix
+2025-05-24 15:01:46,923 - INFO - Successfully updated redhat.vscode-yaml@1.18.0.vsix: vscode engine ^1.63.0 -> ^1.99.0
+2025-05-24 15:01:46,927 - INFO - [62/67] Processing teamsdevapp.vscode-ai-foundry@0.5.1.vsix
+2025-05-24 15:01:46,927 - INFO - Processing: teamsdevapp.vscode-ai-foundry@0.5.1.vsix
+2025-05-24 15:01:48,207 - INFO - Successfully updated teamsdevapp.vscode-ai-foundry@0.5.1.vsix: vscode engine ^1.95.0 -> ^1.99.0
+2025-05-24 15:01:48,216 - INFO - [63/67] Processing toba.vsfire@1.4.1.vsix
+2025-05-24 15:01:48,216 - INFO - Processing: toba.vsfire@1.4.1.vsix
+2025-05-24 15:01:48,225 - INFO - Successfully updated toba.vsfire@1.4.1.vsix: vscode engine ^1.11.0 -> ^1.99.0
+2025-05-24 15:01:48,226 - INFO - [64/67] Processing vscjava.migrate-java-to-azure@0.3.2025052301.vsix
+2025-05-24 15:01:48,226 - INFO - Processing: vscjava.migrate-java-to-azure@0.3.2025052301.vsix
+2025-05-24 15:01:49,328 - INFO - Successfully updated vscjava.migrate-java-to-azure@0.3.2025052301.vsix: vscode engine ^1.96.0 -> ^1.99.0
+2025-05-24 15:01:49,337 - INFO - [65/67] Processing vscjava.vscode-app-mod-pack@0.2.1.vsix
+2025-05-24 15:01:49,337 - INFO - Processing: vscjava.vscode-app-mod-pack@0.2.1.vsix
+2025-05-24 15:01:49,352 - INFO - Successfully updated vscjava.vscode-app-mod-pack@0.2.1.vsix: vscode engine ^1.99.0 -> ^1.99.0
+2025-05-24 15:01:49,354 - INFO - [66/67] Processing vscjava.vscode-java-upgrade@0.14.0.vsix
+2025-05-24 15:01:49,355 - INFO - Processing: vscjava.vscode-java-upgrade@0.14.0.vsix
+2025-05-24 15:01:50,163 - INFO - Successfully updated vscjava.vscode-java-upgrade@0.14.0.vsix: vscode engine ^1.99.0 -> ^1.99.0
+2025-05-24 15:01:50,167 - INFO - [67/67] Processing vscode.github-1.95.3.vsix
+2025-05-24 15:01:50,168 - INFO - Processing: vscode.github-1.95.3.vsix
+2025-05-24 15:01:50,168 - ERROR - The file vscode.github-1.95.3.vsix is not a valid gzip file
+2025-05-24 15:01:50,168 - INFO - 
+=== Processing Summary ===
+2025-05-24 15:01:50,169 - INFO - Total extensions processed: 67
+2025-05-24 15:01:50,169 - INFO - Successfully updated: 63
+2025-05-24 15:01:50,169 - INFO - Failed to update: 4
+2025-05-24 15:01:50,169 - INFO - Skipped extensions: 0
+2025-05-24 15:01:50,169 - INFO - Detailed logs available at: /home/jose.guzman/Downloads/vscodeinsidersextensions/logs/vsix_update_20250524_145836.log
+2025-05-24 15:01:50,169 - INFO - Successfully updated extensions list: /home/jose.guzman/Downloads/vscodeinsidersextensions/logs/successful_extensions_20250524_145836.txt
+2025-05-24 15:01:50,169 - INFO - Failed extensions list: /home/jose.guzman/Downloads/vscodeinsidersextensions/logs/failed_extensions_20250524_145836.txt
