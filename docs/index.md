@@ -1,19 +1,14 @@
-# VS Code Extensions Documentation
+# VS Code Insiders Extensions Documentation
 
-This documentation provides an overview of all the VS Code extensions in this repository.
+This documentation provides detailed information about the extensions in this repository.
 
-**Total: 67 extensions, 1.1 GB**
+## Contents
 
-## Documentation Sections
-
-* [Extension Categories](categories.md)
-* [Extensions by Size](extensions_by_size.md)
-
-## Category Pages
-
-* [Development Tools](category_1.md) (9 extensions)
-* [Programming Languages](category_2.md) (30 extensions)
-* [Cloud & DevOps](category_3.md) (16 extensions)
-* [AI & Machine Learning](category_4.md) (3 extensions)
-* [Remote Development](category_5.md) (4 extensions)
-* [Other](category_99.md) (5 extensions)
+- [Extension Categories](categories.md)
+- [Extensions by Size](extensions_by_size.md)
+- [AI & Machine Learning](category_ai_&_machine_learning.md)
+- [Cloud & DevOps](category_cloud_&_devops.md)
+- [Development Tools](category_development_tools.md)
+- [Other](category_other.md)
+- [Programming Languages](category_programming_languages.md)
+- [Remote Development](category_remote_development.md)

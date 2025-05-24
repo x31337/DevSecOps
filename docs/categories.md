@@ -1,13 +1,10 @@
 # Extension Categories
 
-| Category | Count | Total Size | Description |
-|----------|-------|------------|-------------|
-| [Development Tools](category_1.md) | 9 | 23.6 MB | General development tools and extensions |
-| [Programming Languages](category_2.md) | 30 | 500.7 MB | Language support and programming tools |
-| [Cloud & DevOps](category_3.md) | 16 | 274.7 MB | Cloud services and DevOps tools |
-| [AI & Machine Learning](category_4.md) | 3 | 294.7 MB | AI, ML, and coding assistance tools |
-| [Remote Development](category_5.md) | 4 | 5.3 MB | Remote development and collaboration tools |
-| [Themes & UI](category_6.md) | 0 | 0 B | Visual themes and UI enhancements |
-| [Other](category_99.md) | 5 | 13.1 MB | Miscellaneous extensions |
-
-**Total: 67 extensions, 1.1 GB**
+| Category | Count | Total Size |
+|----------|-------|------------|
+| [Cloud & DevOps](category_cloud_&_devops.md) | 28 | 323.0 MB |
+| [Programming Languages](category_programming_languages.md) | 25 | 857.9 MB |
+| [Other](category_other.md) | 20 | 634.5 MB |
+| [Remote Development](category_remote_development.md) | 11 | 10.8 MB |
+| [Development Tools](category_development_tools.md) | 2 | 16.7 MB |
+| [AI & Machine Learning](category_ai_&_machine_learning.md) | 1 | 5.4 MB |
