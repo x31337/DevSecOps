@@ -1,7 +1,0 @@
-[Rank 2] 2025-05-24 16:22:00,335 - INFO - Process will handle 2 extensions
-[Rank 2] 2025-05-24 16:22:00,339 - INFO - [1/2] Installing: ms-python.vscode-pylance@2025.5.1.vsix
-[Rank 2] 2025-05-24 16:22:00,340 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-python.vscode-pylance@2025.5.1.vsix
-[Rank 2] 2025-05-24 16:22:02,683 - INFO - Successfully installed: ms-python.vscode-pylance@2025.5.1.vsix
-[Rank 2] 2025-05-24 16:22:02,683 - INFO - [2/2] Installing: ms-vscode-remote.remote-containers@0.414.0.vsix
-[Rank 2] 2025-05-24 16:22:02,683 - INFO - Detected gzipped file: ./extensions/new/updated_set/ms-vscode-remote.remote-containers@0.414.0.vsix
-[Rank 2] 2025-05-24 16:22:02,778 - INFO - Successfully installed: ms-vscode-remote.remote-containers@0.414.0.vsix
