@@ -3,17 +3,23 @@
 A comprehensive collection of VS Code Insiders extensions with installation scripts for VS Code and Cursor IDE. This repository provides tools for parallel installation, extension management, and compatibility fixes for VS Code version ^1.99.0.
 
 ## Extension Overview
-* Total number of extensions: 87
+* Total number of extensions: 67
 * Total size of all extensions: 1.8 GB
 * All extensions compatible with VS Code ^1.99.0
 
 ### Categories
-* Cloud & DevOps: 28 extensions
-* Programming Languages: 25 extensions
-* Other: 20 extensions
-* Remote Development: 11 extensions
+* Cloud & DevOps: 19 extensions
+  - Azure tools, Cloud services, Kubernetes, Containers
+* Programming Languages: 16 extensions
+  - Python, Java, C#, TypeScript, Go, Rust, etc.
+* Other: 15 extensions
+  - Various utility and enhancement extensions
+* Remote Development: 9 extensions
+  - Remote workspace, SSH, WSL, Codespaces
+* AI & Machine Learning: 6 extensions
+  - Copilot, ChatGPT, Gemini, AI tooling
 * Development Tools: 2 extensions
-* AI & Machine Learning: 1 extensions
+  - Testing, Linting, Debugging tools
 
 [See detailed category breakdown](docs/categories.md)
 
@@ -66,7 +72,7 @@ mpiexec -n 4 python3 scripts/parallel_install_extensions.py --skip-backup
 
 ## Performance Comparison
 
-| Installation Method      | Time for 87 Extensions | Extensions/second |
+| Installation Method      | Time for 67 Extensions | Extensions/second |
 |--------------------------|------------------------|-------------------|
 | Parallel (4 processes)   | 22.5 seconds           | 3.9               |
 | Standard (sequential)    | ~87 seconds            | 1.0               |
@@ -161,6 +167,17 @@ For detailed setup instructions and configuration options, see the [Database Set
 - Use appropriate access controls for production deployments
 - Follow security best practices outlined in the documentation
 
+## Repository Organization
+
+This repository has been reorganized to provide a clear structure based on extension categories. Each extension is placed in its respective category directory under `extensions/`:
+
+- `extensions/cloud_devops/`: Cloud and DevOps related extensions
+- `extensions/programming_languages/`: Language support and programming tools
+- `extensions/remote_development/`: Remote development capabilities
+- `extensions/ai_ml/`: AI and Machine Learning tools
+- `extensions/development_tools/`: Development utilities
+- `extensions/other/`: Additional extensions and utilities
+
 ## Repository Structure
 
 ```
@@ -174,6 +191,12 @@ For detailed setup instructions and configuration options, see the [Database Set
 │   ├── extensions_by_size.md # Extensions by size
 │   └── index.md              # Documentation index
 ├── extensions/               # Directory containing all .vsix extension files
+│   ├── ai_ml/                # AI & Machine Learning extensions
+│   ├── cloud_devops/         # Cloud & DevOps extensions
+│   ├── development_tools/    # Development tools extensions
+│   ├── other/                # Other miscellaneous extensions
+│   ├── programming_languages/# Programming language extensions
+│   └── remote_development/   # Remote development extensions
 ├── logs/                     # Installation and operation logs
 └── scripts/                  # Scripts directory
     ├── create_extension_db.py        # Database creation
