@@ -1,4 +1,5 @@
-// Schema for VS Code Insiders Extensions Management
+// This is your Prisma schema file
+// Learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
   provider = "prisma-client-js"
@@ -10,69 +11,58 @@ datasource db {
 }
 
 model Extension {
-  id            String      @id
-  publisher     Publisher   @relation(fields: [publisherId], references: [id])
-  publisherId   String
-  name          String
+  id            String    @id @default(uuid())
+  uniqueName    String    @unique // e.g., "ms-python.python"
   displayName   String
-  version       String
-  description   String?
-  installCount  Int         @default(0)
-  rating        Float?
-  ratingCount   Int         @default(0)
+  description   String
+  publisher     Publisher @relation(fields: [publisherId], references: [id])
+  publisherId   String
+  versions      Version[]
   categories    Category[]
-  tags          Tag[]
-  size          Int         @default(0)
-  filePath      String?
-  vscodeVersion String      @default("^1.99.0")
-  lastUpdated   DateTime    @default(now())
-  dependencies  Extension[] @relation("ExtensionDependencies")
-  dependentOn   Extension[] @relation("ExtensionDependencies")
-  createdAt     DateTime    @default(now())
-  updatedAt     DateTime    @updatedAt
+  ratings       Rating[]
+  icon          String?   // URL to the extension icon
+  repository    String?   // URL to the source repository
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([uniqueName])
+}
+
+model Version {
+  id          String    @id @default(uuid())
+  version     String    // Semantic version number
+  extension   Extension @relation(fields: [extensionId], references: [id])
+  extensionId String
+  changelog   String?
+  assets      Json?     // Store URLs or paths to extension assets
+  releaseDate DateTime  @default(now())
+  
+  @@unique([extensionId, version])
 }
 
 model Publisher {
-  id          String      @id
+  id          String      @id @default(uuid())
   name        String      @unique
-  displayName String?
+  displayName String
   extensions  Extension[]
   createdAt   DateTime    @default(now())
   updatedAt   DateTime    @updatedAt
 }
 
 model Category {
-  id         String      @id @default(cuid())
+  id         String      @id @default(uuid())
   name       String      @unique
   extensions Extension[]
-  count      Int         @default(0)
-  totalSize  Int         @default(0)
-  createdAt  DateTime    @default(now())
-  updatedAt  DateTime    @updatedAt
 }
 
-model Tag {
-  id         String      @id @default(cuid())
-  name       String      @unique
-  extensions Extension[]
-  createdAt  DateTime    @default(now())
-  updatedAt  DateTime    @updatedAt
+model Rating {
+  id          String    @id @default(uuid())
+  rating      Int       // 1-5 stars
+  review      String?
+  extension   Extension @relation(fields: [extensionId], references: [id])
+  extensionId String
+  createdAt   DateTime  @default(now())
+  
+  @@index([extensionId])
 }
 
-model InstallationLog {
-  id            String   @id @default(cuid())
-  extensionId   String
-  timestamp     DateTime @default(now())
-  success       Boolean
-  error         String?
-  vsCodeVersion String?
-  platform      String?
-}
-
-model SyncLog {
-  id        String   @id @default(cuid())
-  timestamp DateTime @default(now())
-  success   Boolean
-  message   String?
-  details   Json?
-}
