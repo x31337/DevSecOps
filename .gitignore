@@ -1,0 +1,45 @@
+# Node modules and dependencies
+node_modules/
+.npm
+.yarn
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# Database files
+*.sqlite
+*.sqlite3
+db/*.db
+prisma/migrations/
+.prisma/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build and compiled files
+dist/
+build/
+.next/
+out/
+
+# Cache directories
+.cache/
+.temp/
+
+# Testing
+coverage/
+
+# Operating System
+.DS_Store
+Thumbs.db
+

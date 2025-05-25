@@ -1,0 +1,15 @@
+[Unit]
+Description=VS Code Extensions Database Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=jose.guzman
+WorkingDirectory=/home/jose.guzman/Downloads/vscodeinsidersextensions
+ExecStart=/usr/bin/python3 scripts/monitor_database.py --notify
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
+

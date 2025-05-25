@@ -1,0 +1,78 @@
+// Schema for VS Code Insiders Extensions Management
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Extension {
+  id            String      @id
+  publisher     Publisher   @relation(fields: [publisherId], references: [id])
+  publisherId   String
+  name          String
+  displayName   String
+  version       String
+  description   String?
+  installCount  Int         @default(0)
+  rating        Float?
+  ratingCount   Int         @default(0)
+  categories    Category[]
+  tags          Tag[]
+  size          Int         @default(0)
+  filePath      String?
+  vscodeVersion String      @default("^1.99.0")
+  lastUpdated   DateTime    @default(now())
+  dependencies  Extension[] @relation("ExtensionDependencies")
+  dependentOn   Extension[] @relation("ExtensionDependencies")
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+}
+
+model Publisher {
+  id          String      @id
+  name        String      @unique
+  displayName String?
+  extensions  Extension[]
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model Category {
+  id         String      @id @default(cuid())
+  name       String      @unique
+  extensions Extension[]
+  count      Int         @default(0)
+  totalSize  Int         @default(0)
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+}
+
+model Tag {
+  id         String      @id @default(cuid())
+  name       String      @unique
+  extensions Extension[]
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+}
+
+model InstallationLog {
+  id            String   @id @default(cuid())
+  extensionId   String
+  timestamp     DateTime @default(now())
+  success       Boolean
+  error         String?
+  vsCodeVersion String?
+  platform      String?
+}
+
+model SyncLog {
+  id        String   @id @default(cuid())
+  timestamp DateTime @default(now())
+  success   Boolean
+  message   String?
+  details   Json?
+}

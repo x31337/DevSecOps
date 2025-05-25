@@ -1,0 +1,61 @@
+# Database Metrics Analysis Configuration
+
+# Alert Thresholds
+thresholds:
+  query_time: 1.0        # Alert if query time exceeds this value (seconds)
+  memory_growth: 20      # Alert if memory grows by this percentage in 24h
+  db_growth: 50         # Alert if database size grows by this percentage in 24h
+  error_rate: 0.1       # Alert if error rate exceeds this value (10%)
+  performance_degradation: 50  # Alert if performance degrades by this percentage
+
+# Report Settings
+reports:
+  retention_days: 30    # Number of days to keep report history
+  plot_style:
+    figure_size: [10, 6]
+    dpi: 100
+    colors:
+      sqlite: '#1f77b4'
+      postgres: '#2ca02c'
+      performance: '#d62728'
+      memory: '#ff7f0e'
+
+# Monitoring Intervals
+intervals:
+  min_samples: 10       # Minimum samples needed for trend analysis
+  compare_window: 5     # Number of samples to compare for trend analysis
+
+# Alert Categories
+alert_levels:
+  critical:
+    - query_time
+    - error_rate
+  warning:
+    - memory_growth
+    - db_growth
+  info:
+    - performance_degradation
+
+# Recommendations
+recommendations:
+  query_time:
+    - "Add indexes to frequently queried columns"
+    - "Review and optimize complex queries"
+    - "Consider implementing query caching"
+  memory_growth:
+    - "Implement periodic memory cleanup"
+    - "Review memory-intensive operations"
+    - "Consider implementing memory limits"
+  db_growth:
+    - "Implement data archival strategy"
+    - "Review data retention policies"
+    - "Consider database partitioning"
+  error_rate:
+    - "Review error logs for patterns"
+    - "Implement robust error handling"
+    - "Set up monitoring alerts"
+  performance_degradation:
+    - "Analyze query execution plans"
+    - "Review database statistics"
+    - "Consider database maintenance tasks"
+

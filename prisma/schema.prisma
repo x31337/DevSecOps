@@ -1,0 +1,68 @@
+// This is your Prisma schema file
+// Learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Extension {
+  id            String    @id @default(uuid())
+  uniqueName    String    @unique // e.g., "ms-python.python"
+  displayName   String
+  description   String
+  publisher     Publisher @relation(fields: [publisherId], references: [id])
+  publisherId   String
+  versions      Version[]
+  categories    Category[]
+  ratings       Rating[]
+  icon          String?   // URL to the extension icon
+  repository    String?   // URL to the source repository
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([uniqueName])
+}
+
+model Version {
+  id          String    @id @default(uuid())
+  version     String    // Semantic version number
+  extension   Extension @relation(fields: [extensionId], references: [id])
+  extensionId String
+  changelog   String?
+  assets      Json?     // Store URLs or paths to extension assets
+  releaseDate DateTime  @default(now())
+  
+  @@unique([extensionId, version])
+}
+
+model Publisher {
+  id          String      @id @default(uuid())
+  name        String      @unique
+  displayName String
+  extensions  Extension[]
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model Category {
+  id         String      @id @default(uuid())
+  name       String      @unique
+  extensions Extension[]
+}
+
+model Rating {
+  id          String    @id @default(uuid())
+  rating      Int       // 1-5 stars
+  review      String?
+  extension   Extension @relation(fields: [extensionId], references: [id])
+  extensionId String
+  createdAt   DateTime  @default(now())
+  
+  @@index([extensionId])
+}
+

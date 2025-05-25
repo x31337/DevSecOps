@@ -1,0 +1,59 @@
+{
+  "name": "vscode-insiders-extensions",
+  "version": "1.0.0",
+  "description": "VS Code Insiders Extensions Collection with dual database support",
+  "scripts": {
+    "db:init": "./scripts/init_database.sh",
+    "db:migrate": "python3 ./scripts/migrate_database.py",
+    "db:migrate:force": "python3 ./scripts/migrate_database.py --force",
+    "db:migrate:dry": "python3 ./scripts/migrate_database.py --dry-run",
+    "db:migrate:postgres": "python3 ./scripts/migrate_database.py --type postgres",
+    "db:migrate:sqlite": "python3 ./scripts/migrate_database.py --type sqlite",
+    "db:check": "python3 ./scripts/check_database.py",
+    "db:check:verbose": "python3 ./scripts/check_database.py --verbose",
+    "db:repair": "python3 ./scripts/check_database.py --repair",
+    "db:repair:force": "python3 ./scripts/check_database.py --repair --force",
+    "db:generate": "prisma generate",
+    "db:studio": "prisma studio",
+    "db:reset": "prisma migrate reset",
+    "start": "python3 scripts/create_extension_db.py"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "@prisma/extension-accelerate": "latest",
+    "@prisma/ppg-tunnel": "latest"
+  },
+  "devDependencies": {
+    "prisma": "^6.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/vscodeinsidersextensions.git"
+  },
+  "keywords": [
+    "vscode",
+    "extensions",
+    "prisma",
+    "postgresql",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yourusername/vscodeinsidersextensions/issues"
+  },
+  "homepage": "https://github.com/yourusername/vscodeinsidersextensions#readme"
+}

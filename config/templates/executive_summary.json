@@ -1,0 +1,45 @@
+{
+  "name": "executive_summary",
+  "description": "High-level summary for executive reporting",
+  "fields": {
+    "timestamp": {
+      "type": "direct",
+      "output": "Report Date"
+    },
+    "status": {
+      "type": "direct",
+      "output": "Overall Health"
+    },
+    "errors": {
+      "type": "calculated",
+      "calculation": "sum_errors",
+      "output": "Total Issues"
+    },
+    "critical_systems": {
+      "type": "calculated",
+      "calculation": "check_status",
+      "checks": ["security", "performance", "database"],
+      "output": "Critical Systems Status"
+    },
+    "recommendations": {
+      "type": "calculated",
+      "calculation": "concatenate",
+      "fields": ["performance.recommendations", "security.recommendations"],
+      "output": "Key Recommendations"
+    }
+  },
+  "formatting": {
+    "status_colors": {
+      "pass": "green",
+      "warn": "yellow",
+      "fail": "red"
+    },
+    "sections": [
+      "Overview",
+      "Critical Systems",
+      "Issues Summary",
+      "Recommendations"
+    ]
+  }
+}
+

@@ -1,0 +1,96 @@
+# Configuration Schema Definition
+type: object
+required:
+  - database
+  - prisma
+  - monitoring
+  - metrics
+  - extensions
+
+properties:
+  database:
+    type: object
+    required: [type, path, backup_enabled, backup_interval, max_backups]
+    properties:
+      type:
+        type: string
+        enum: [sqlite, postgresql]
+      path:
+        type: string
+      backup_enabled:
+        type: boolean
+      backup_interval:
+        type: integer
+        minimum: 3600
+      max_backups:
+        type: integer
+        minimum: 1
+
+  prisma:
+    type: object
+    required: [enabled, schema_path, migration_dir, pool_size]
+    properties:
+      enabled:
+        type: boolean
+      connection_url:
+        type: string
+      schema_path:
+        type: string
+      migration_dir:
+        type: string
+      pool_size:
+        type: integer
+        minimum: 1
+        maximum: 20
+
+  monitoring:
+    type: object
+    required: [enabled, interval, alert_threshold, log_metrics, retention_days]
+    properties:
+      enabled:
+        type: boolean
+      interval:
+        type: integer
+        minimum: 60
+      alert_threshold:
+        type: integer
+        minimum: 0
+        maximum: 100
+      log_metrics:
+        type: boolean
+      retention_days:
+        type: integer
+        minimum: 1
+
+  metrics:
+    type: object
+    required: [collect, format, save_path, history_length]
+    properties:
+      collect:
+        type: boolean
+      format:
+        type: array
+        items:
+          type: string
+          enum: [json, html, pdf, text]
+      save_path:
+        type: string
+      history_length:
+        type: integer
+        minimum: 1
+
+  extensions:
+    type: object
+    required: [download_retries, parallel_downloads, verify_integrity, auto_fix]
+    properties:
+      download_retries:
+        type: integer
+        minimum: 1
+      parallel_downloads:
+        type: integer
+        minimum: 1
+      verify_integrity:
+        type: boolean
+      auto_fix:
+        type: boolean
+

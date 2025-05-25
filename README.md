@@ -97,6 +97,70 @@ brew install open-mpi
 pip install mpi4py
 ```
 
+## Database Management
+
+### Prerequisites
+- Node.js >= 14.0.0
+- npm (comes with Node.js)
+- Python 3.x (for SQLite operations)
+
+### Quick Start
+
+1. Initialize the database environment:
+```bash
+npm run db:init
+```
+
+2. Choose your database implementation:
+
+#### Option 1: SQLite (Default)
+```bash
+# Uses the default SQLite implementation
+npm start
+```
+
+#### Option 2: PostgreSQL with Prisma
+```bash
+# Update your .env file with PostgreSQL credentials first
+npm run db:migrate
+```
+
+### Available Database Commands
+
+```bash
+# Initialize database environment
+npm run db:init
+
+# Run database migrations (PostgreSQL)
+npm run db:migrate
+
+# Generate Prisma Client
+npm run db:generate
+
+# Open Prisma Studio (database GUI)
+npm run db:studio
+
+# Reset database (Caution: deletes all data)
+npm run db:reset
+```
+
+### Database Tools
+
+- **SQLite**: Uses built-in Python sqlite3 module
+- **PostgreSQL**: Managed through Prisma with additional features:
+  - Prisma Studio for GUI database management
+  - Database migrations and versioning
+  - Type-safe database client
+  - Connection pooling and caching through Prisma Accelerate
+
+For detailed setup instructions and configuration options, see the [Database Setup Guide](docs/database_setup.md).
+
+### Security Notes
+- Database credentials are stored in `.env` (never committed to version control)
+- Regular database backups are recommended
+- Use appropriate access controls for production deployments
+- Follow security best practices outlined in the documentation
+
 ## Repository Structure
 
 ```

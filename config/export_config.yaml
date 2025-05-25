@@ -1,0 +1,127 @@
+# Export Configuration Settings
+
+# Default export settings
+defaults:
+  format: 'excel'
+  output_dir: 'logs/diagnostics/exports'
+  validate: true
+  aggregate: true
+  include_history: true
+
+# Data validation rules
+validation:
+  required_fields:
+    - file_timestamp
+    - status
+    - checks
+  valid_statuses:
+    - pass
+    - warn
+    - fail
+    - unknown
+  timestamp_format: '%Y-%m-%d %H:%M:%S'
+  max_error_length: 1000
+  max_warning_length: 1000
+
+# Aggregation settings
+aggregation:
+  summary_metrics:
+    - total_checks
+    - error_counts
+    - warning_counts
+    - status_distribution
+  trend_metrics:
+    - error_rate
+    - performance
+    - status_changes
+  default_window: 7  # days
+  min_data_points: 3
+
+# Export formats
+formats:
+  excel:
+    sheets:
+      - name: Summary
+        include: true
+        position: 1
+      - name: Detailed Checks
+        include: true
+        position: 2
+      - name: Performance
+        include: true
+        position: 3
+      - name: Error Analysis
+        include: true
+        position: 4
+      - name: Trends
+        include: true
+        position: 5
+  csv:
+    flatten_nested: true
+    include_metadata: true
+    date_format: '%Y-%m-%d %H:%M:%S'
+  json:
+    pretty_print: true
+    include_metadata: true
+    compress_large: false
+
+# Performance settings
+performance:
+  chunk_size: 1000
+  max_memory: '256M'
+  parallel_processing: false
+  cache_results: true
+  cache_dir: 'cache/exports'
+
+# Logging configuration
+logging:
+  level: INFO
+  file_format: '%(asctime)s - %(levelname)s - %(message)s'
+  console_format: '%(levelname)s: %(message)s'
+  rotate_logs: true
+  max_log_size: '10M'
+  backup_count: 5
+
+# Error handling
+error_handling:
+  retry_attempts: 3
+  retry_delay: 5
+  skip_failed_entries: false
+  backup_on_error: true
+  notify_on_error: true
+
+# Notification settings
+notifications:
+  email:
+    enabled: false
+    smtp_server: ''
+    smtp_port: 587
+    use_tls: true
+    from_address: ''
+    recipients: []
+    notify_on:
+      - error
+      - warning
+      - completion
+  slack:
+    enabled: false
+    webhook_url: ''
+    channel: ''
+    notify_on:
+      - error
+      - warning
+
+# Output customization
+customization:
+  company_name: ''
+  logo_path: ''
+  color_scheme:
+    pass: '#28a745'
+    warn: '#ffc107'
+    fail: '#dc3545'
+    info: '#17a2b8'
+  fonts:
+    main: 'Arial'
+    headers: 'Arial Bold'
+    monospace: 'Courier New'
+
